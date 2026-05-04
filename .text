@@ -1,0 +1,209 @@
+        <div class="things_to_do">
+            <div class="ttd_container">
+                <div class="ttd_img_container">
+                        <div class="ttd_img">
+                            <div class="slideshow-container">
+
+                                <img id="slideImage" class="slide-image" alt="memory">
+
+                                <p id="slideCaption" class="slide-caption"></p>
+
+                                <!-- hover overlay -->
+                                <div class="slide-hover">
+                                    <p id="slideDays" class="slide-days"></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="ttd_text_container">
+                    <div class="ttd_header">
+                        <h1>Things To Do</h1>
+                        <br>
+                    </div>
+                    <div class="ttd_text_card_container">
+                        <div class="ttd_text_card_container">
+                            <p>descrition</p>
+                            <div class="ttd_btn">
+                                <button>learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------->
+        <div class="sports">
+            <div class="sports_container">
+                <div class="sports_text_container">
+                    <div class="sports_header">
+                        <h1>Sports</h1>
+                        <br>
+                    </div>
+                    <div class="sports_text_card_container">
+                        <div class="sports_text_card_container">
+                            <p>descrition</p>
+                            <div class="sports_btn">
+                                <button>learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sports_img_container">
+                        <div class="sports_img">
+                            <div class="slideshow-container">
+
+                                <img id="slideImage" class="slide-image" alt="memory">
+
+                                <p id="slideCaption" class="slide-caption"></p>
+
+                                <!-- hover overlay -->
+                                <div class="slide-hover">
+                                    <p id="slideDays" class="slide-days"></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------->
+        <div class="restaurants">
+            <div class="restaurants_container">
+                <div class="restaurants_img_container">
+                        <div class="restaurants_img">
+                            <div class="slideshow-container">
+
+                                <img id="slideImage" class="slide-image" alt="memory">
+
+                                <p id="slideCaption" class="slide-caption"></p>
+
+                                <!-- hover overlay -->
+                                <div class="slide-hover">
+                                    <p id="slideDays" class="slide-days"></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurants_text_container">
+                    <div class="restaurants_header">
+                        <h1>Restaurants</h1>
+                        <br>
+                    </div>
+                    <div class="restaurants_text_card_container">
+                        <div class="restaurants_text_card_container">
+                            <p>descrition</p>
+                            <div class="restaurants_btn">
+                                <button>learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------->
+        <div class="places_to_stay">
+            <div class="pts_container">
+                <div class="pts_text_container">
+                    <div class="pts_header">
+                        <h1>Sports</h1>
+                        <br>
+                    </div>
+                    <div class="pts_text_card_container">
+                        <div class="pts_text_card_container">
+                            <p>descrition</p>
+                            <div class="pts_btn">
+                                <button>learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pts_img_container">
+                        <div class="pts_img">
+                            <div class="slideshow-container">
+
+                                <img id="slideImage" class="slide-image" alt="memory">
+
+                                <p id="slideCaption" class="slide-caption"></p>
+
+                                <!-- hover overlay -->
+                                <div class="slide-hover">
+                                    <p id="slideDays" class="slide-days"></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------->
+        <div class="events">
+            <div class="events_container">
+                <div class="events_img_container">
+                        <div class="events_img">
+                            <div class="slideshow-container">
+
+                                <img id="slideImage" class="slide-image" alt="memory">
+
+                                <p id="slideCaption" class="slide-caption"></p>
+
+                                <!-- hover overlay -->
+                                <div class="slide-hover">
+                                    <p id="slideDays" class="slide-days"></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="events_text_container">
+                    <div class="events_header">
+                        <h1>Restaurants</h1>
+                        <br>
+                    </div>
+                    <div class="events_text_card_container">
+                        <div class="events_text_card_container">
+                            <p>descrition</p>
+                            <div class="events_btn">
+                                <button>learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------->
+        <div class="culture">
+            <div class="culture_container">
+                <div class="culture_text_container">
+                    <div class="culture_header">
+                        <h1>Sports</h1>
+                        <br>
+                    </div>
+                    <div class="culture_text_card_container">
+                        <div class="culture_text_card_container">
+                            <p>descrition</p>
+                            <div class="culture_btn">
+                                <button>learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="culture_img_container">
+                        <div class="culture_img">
+                            <div class="slideshow-container">
+
+                                <img id="slideImage" class="slide-image" alt="memory">
+
+                                <p id="slideCaption" class="slide-caption"></p>
+
+                                <!-- hover overlay -->
+                                <div class="slide-hover">
+                                    <p id="slideDays" class="slide-days"></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

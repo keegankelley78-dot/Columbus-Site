@@ -1,0 +1,112 @@
+[
+    {
+        "title": "Things To Do",
+        "description": "Columbus offers museums, parks, shopping areas, public art, festivals, and local attractions for visitors of all ages.",
+        "buttonText": "Explore Activities",
+        "slides": [
+            {
+                "image": "/Res/Pics/food/BrewDog.jpg",
+                "caption": "Downtown Columbus",
+                "info": "Downtown is a popular area for attractions, restaurants, events, and walking."
+            },
+            {
+                "image": "/Res/Pics/food/BrewDog.jpg",
+                "caption": "Scioto Mile",
+                "info": "The Scioto Mile has riverfront views, trails, fountains, and green space."
+            },
+            {
+                "image": "/Res/Pics/food/BrewDog.jpg",
+                "caption": "Local Museums",
+                "info": "Columbus has museums focused on art, history, science, and culture."
+            }
+        ]
+    },
+    {
+        "title": "Sports",
+        "description": "Columbus has a strong sports scene with professional teams, college athletics, and local sporting events throughout the year.",
+        "buttonText": "View Sports",
+        "slides": [
+            {
+                "image": "/Res/Pics/cbus/blue-jackets.jpg",
+                "caption": "Columbus Blue Jackets",
+                "info": "The Blue Jackets play NHL hockey at Nationwide Arena."
+            },
+            {
+                "image": "/Res/Pics/cbus/crew.jpg",
+                "caption": "Columbus Crew",
+                "info": "The Columbus Crew are a professional soccer team based in the city."
+            },
+            {
+                "image": "/Res/Pics/cbus/osu.jpg",
+                "caption": "Ohio State Athletics",
+                "info": "Ohio State sports bring major crowds and energy to Columbus."
+            }
+        ]
+    },
+    {
+        "title": "Restaurants",
+        "description": "Visitors can find local restaurants, coffee shops, food trucks, international dining, and casual spots throughout Columbus.",
+        "buttonText": "Find Food",
+        "slides": [
+            {
+                "image": "/Res/Pics/cbus/restaurant.jpg",
+                "caption": "Local Restaurants",
+                "info": "Columbus has many local restaurants across downtown and nearby districts."
+            },
+            {
+                "image": "/Res/Pics/cbus/north-market.jpg",
+                "caption": "North Market",
+                "info": "North Market is a popular food destination with many vendors."
+            },
+            {
+                "image": "/Res/Pics/cbus/coffee.jpg",
+                "caption": "Coffee Shops",
+                "info": "The city has many coffee shops for visitors to relax or work."
+            }
+        ]
+    },
+    {
+        "title": "Places To Stay",
+        "description": "Columbus has hotels, downtown stays, short-term rentals, and lodging near major attractions and event locations.",
+        "buttonText": "View Stays",
+        "slides": [
+            {
+                "image": "/Res/Pics/cbus/hotel.jpg",
+                "caption": "Downtown Hotels",
+                "info": "Downtown hotels are close to restaurants, events, and entertainment."
+            },
+            {
+                "image": "/Res/Pics/cbus/short-north.jpg",
+                "caption": "Short North",
+                "info": "The Short North is a lively area with hotels, food, shops, and nightlife."
+            },
+            {
+                "image": "/Res/Pics/cbus/german-village.jpg",
+                "caption": "German Village",
+                "info": "German Village offers historic charm, food, and walkable streets."
+            }
+        ]
+    },
+    {
+        "title": "Transportation",
+        "description": "Visitors can travel through Columbus using COTA buses, walking, bikes, rideshare, taxis, scooters, and other local transportation options.",
+        "buttonText": "Plan Travel",
+        "slides": [
+            {
+                "image": "/Res/Pics/cbus/cota.jpg",
+                "caption": "COTA Bus",
+                "info": "COTA provides bus transportation throughout Columbus."
+            },
+            {
+                "image": "/Res/Pics/cbus/bike.jpg",
+                "caption": "Bike Routes",
+                "info": "Bike paths and trails help visitors explore parts of the city."
+            },
+            {
+                "image": "/Res/Pics/cbus/walking.jpg",
+                "caption": "Walkable Areas",
+                "info": "Downtown, the Short North, and German Village are good areas for walking."
+            }
+        ]
+    }
+]
