@@ -89,7 +89,7 @@
 .navbar_link_item {
     color: var(--clr-white);
     text-decoration: none;
-    font-size: var(--fs-small);
+    font-size: var(--fs-medium);
     font-weight: var(--fw-medium);
 
     padding: 0.6rem 0.25rem;

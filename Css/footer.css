@@ -29,7 +29,7 @@
     background: #102a43;
     color: white;
     padding: 2rem 1rem;
-    margin-top: 4rem;
+
     min-width: 100%;
 }
 
@@ -101,6 +101,9 @@
     background: white;
     transform: translateY(-4px);
 }
+#social_icon{
+    font-size: var(--fs-large);
+}
 
 /* FOOTER INFO */
 .footer_info {
@@ -122,6 +125,11 @@
 
 .footer_logo{
     margin-bottom: 0.25rem;
+}
+
+.footer_logo img{
+    height: auto;
+    width: 22.5rem;
 }
 
 .footer_address h3 {

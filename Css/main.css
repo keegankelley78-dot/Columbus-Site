@@ -31,9 +31,8 @@ body {
 }
 
 /* HERO SECTION */
-.hero {
+.hero { 
     min-height: 75vh;
-
     background-image: url("../Res/Pics/cbus/DSC_7105.bl.f.jpg");
     background-size: cover;
     background-position: center;
@@ -42,10 +41,9 @@ body {
 
 .hero_overlay {
     min-height: 75vh;
-
     background: linear-gradient(
-        rgba(0, 40, 85, 0.65),
-        rgba(0, 27, 58, 0.65)
+        rgba(0, 40, 85, 0.05),
+        rgba(0, 27, 58, 0.8)
     );
 
     display: flex;
@@ -60,7 +58,7 @@ body {
     text-align: center;
 }
 
-.hero_text_container {
+.hero_text_card {
     display: inline-block;
     padding: 2rem 3rem;
 
@@ -68,19 +66,18 @@ body {
     border-radius: 1.5rem;
 
     background: rgba(0, 40, 85, 0.35);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(1.75px);
 }
 
-.hero_text_container h1 {
+.hero_text h1 {
     color: var(--clr-white);
     font-size: var(--fs-xlarge);
     font-weight: var(--fw-bold);
-
     letter-spacing: 2px;
     margin-bottom: 1rem;
 }
 
-.hero_text_container p {
+.hero_text p {
     color: var(--clr-light-blue);
     font-size: var(--fs-large);
     font-weight: var(--fw-medium);
@@ -236,6 +233,48 @@ body {
     color: var(--clr-white);
     transform: translateY(-2px);
 }
+
+
+
+/* THINGS TO DO STYLING SECTION********************************************************************************************/
+
+    .ttd_hero { 
+        min-height: 75vh;
+        background-image: url("/Res/Pics/ttd/Children\'s\ Garden\ 1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .ttd_hero_overlay {
+        min-height: 75vh;
+        background: linear-gradient(
+            rgba(0, 40, 85, 0.05),
+            rgba(0, 27, 58, 0.8)
+        );
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ttd_hero_container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .ttd_hero_text_card {
+        display: inline-block;
+        padding: 2rem 3rem;
+
+        border: 3px solid var(--clr-gold);
+        border-radius: 1.5rem;
+
+        background: rgba(0, 40, 85, 0.35);
+        backdrop-filter: blur(1.75px);
+    }
 
 /* RESPONSIVE */
 @media screen and (max-width: 900px) {
