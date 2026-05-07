@@ -2,7 +2,7 @@ const infoCardsContainer = document.getElementById("infoCardsContainer");
 
 async function loadInfoCards() {
     try {
-        const response = await fetch("/Data/info-cards.JSON");
+        const response = await fetch("../Data/info-cards.JSON");
 
         if (!response.ok) {
             throw new Error("Could not load JSON file.");
@@ -14,6 +14,7 @@ async function loadInfoCards() {
 
     } catch (error) {
         console.error("JSON loading error:", error);
+
         infoCardsContainer.innerHTML = `
             <p class="error_message">Could not load Columbus information.</p>
         `;
@@ -21,6 +22,8 @@ async function loadInfoCards() {
 }
 
 function createInfoCards(topics) {
+    infoCardsContainer.innerHTML = "";
+
     topics.forEach(function(topic, topicIndex) {
         const card = document.createElement("div");
 

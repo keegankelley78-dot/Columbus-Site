@@ -27,17 +27,17 @@
         "buttonText": "View Sports",
         "slides": [
             {
-                "image": "/Res/Pics/cbus/blue-jackets.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Columbus Blue Jackets",
                 "info": "The Blue Jackets play NHL hockey at Nationwide Arena."
             },
             {
-                "image": "/Res/Pics/cbus/crew.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Columbus Crew",
                 "info": "The Columbus Crew are a professional soccer team based in the city."
             },
             {
-                "image": "/Res/Pics/cbus/osu.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Ohio State Athletics",
                 "info": "Ohio State sports bring major crowds and energy to Columbus."
             }
@@ -49,17 +49,17 @@
         "buttonText": "Find Food",
         "slides": [
             {
-                "image": "/Res/Pics/cbus/restaurant.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Local Restaurants",
                 "info": "Columbus has many local restaurants across downtown and nearby districts."
             },
             {
-                "image": "/Res/Pics/cbus/north-market.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "North Market",
                 "info": "North Market is a popular food destination with many vendors."
             },
             {
-                "image": "/Res/Pics/cbus/coffee.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Coffee Shops",
                 "info": "The city has many coffee shops for visitors to relax or work."
             }
@@ -71,17 +71,17 @@
         "buttonText": "View Stays",
         "slides": [
             {
-                "image": "/Res/Pics/cbus/hotel.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Downtown Hotels",
                 "info": "Downtown hotels are close to restaurants, events, and entertainment."
             },
             {
-                "image": "/Res/Pics/cbus/short-north.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Short North",
                 "info": "The Short North is a lively area with hotels, food, shops, and nightlife."
             },
             {
-                "image": "/Res/Pics/cbus/german-village.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "German Village",
                 "info": "German Village offers historic charm, food, and walkable streets."
             }
@@ -93,17 +93,17 @@
         "buttonText": "Plan Travel",
         "slides": [
             {
-                "image": "/Res/Pics/cbus/cota.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "COTA Bus",
                 "info": "COTA provides bus transportation throughout Columbus."
             },
             {
-                "image": "/Res/Pics/cbus/bike.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Bike Routes",
                 "info": "Bike paths and trails help visitors explore parts of the city."
             },
             {
-                "image": "/Res/Pics/cbus/walking.jpg",
+                "image": "/Res/Pics/food/BrewDog.jpg",
                 "caption": "Walkable Areas",
                 "info": "Downtown, the Short North, and German Village are good areas for walking."
             }
