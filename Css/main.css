@@ -292,33 +292,302 @@ body {
 /* TTD header styling**********/
 
 .ttd_header{
-display: flex;
-flex-direction: column;
+    padding: 3rem 2rem;
 }
 .ttd_header_container{
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+
 }
 .ttd_header_img{
     display: flex;
-
+    margin-right: 5rem;
     border-radius: 1.5rem;
 }
 .ttd_header_img img{
-    width: 20rem;
+    width: 50rem;
     height: auto;
     border-radius: 1.5rem;
 }
 .ttd_header_text{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--clr-navy);
+    border-radius: 1.5rem;
+}
+.ttd_header_text h1{
+    color: var(--clr-white);
+}
+.ttd_header_text p{
+    color: var(--clr-white);
+}
+
+/*Sports Styling Sections*********************************************************************************/
+
+.sports_hero { 
+    min-height: 75vh;
+    background-image: url("/Res/Pics/Sports/arena/DSC_3276pan.fff.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sports_hero_overlay {
+    min-height: 75vh;
+    background: linear-gradient(
+    rgba(0, 40, 85, 0.05),
+    rgba(0, 27, 58, 0.8)
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sports_hero_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.sports_hero_text_card {
+    display: inline-block;
     padding: 2rem 3rem;
 
     border: 3px solid var(--clr-gold);
     border-radius: 1.5rem;
 
+    background: rgba(0, 40, 85, 0.35);
+    backdrop-filter: blur(1.75px);
+}
+.sports_hero_text h1 {
+    color: var(--clr-white);
+    font-size: var(--fs-xlarge);
+    font-weight: var(--fw-bold);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
 }
 
+.sports_hero_text p {
+    color: var(--clr-light-blue);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-medium);
+}
 
+/*Events Styling sections*********************************************************************************/
+
+.events_hero { 
+    min-height: 75vh;
+    background-image: url("/Res/Pics/cultures/Experience\ Columbus\ July-197.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.events_hero_overlay {
+    min-height: 75vh;
+    background: linear-gradient(
+    rgba(0, 40, 85, 0.05),
+    rgba(0, 27, 58, 0.8)
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events_hero_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.events_hero_text_card {
+    display: inline-block;
+    padding: 2rem 3rem;
+
+    border: 3px solid var(--clr-gold);
+    border-radius: 1.5rem;
+
+    background: rgba(0, 40, 85, 0.35);
+    backdrop-filter: blur(1.75px);
+}
+.events_hero_text h1 {
+    color: var(--clr-white);
+    font-size: var(--fs-xlarge);
+    font-weight: var(--fw-bold);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.events_hero_text p {
+    color: var(--clr-light-blue);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-medium);
+}
+
+/*culture Styling sections********************************************************************************/
+.culture_hero { 
+    min-height: 75vh;
+    background-image: url("/Res/Pics/cultures/ShortNorth_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.culture_hero_overlay {
+    min-height: 75vh;
+    background: linear-gradient(
+    rgba(0, 40, 85, 0.05),
+    rgba(0, 27, 58, 0.8)
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.culture_hero_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.culture_hero_text_card {
+    display: inline-block;
+    padding: 2rem 3rem;
+
+    border: 3px solid var(--clr-gold);
+    border-radius: 1.5rem;
+
+    background: rgba(0, 40, 85, 0.35);
+    backdrop-filter: blur(1.75px);
+}
+.culture_hero_text h1 {
+    color: var(--clr-white);
+    font-size: var(--fs-xlarge);
+    font-weight: var(--fw-bold);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.culture_hero_text p {
+    color: var(--clr-light-blue);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-medium);
+}
+
+/*Food Styling section*********************************************************************************************************/
+.restaurants_hero { 
+    min-height: 75vh;
+    background-image: url("/Res/Pics/cultures/ShortNorth.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.restaurants_hero_overlay {
+    min-height: 75vh;
+    background: linear-gradient(
+    rgba(0, 40, 85, 0.05),
+    rgba(0, 27, 58, 0.8)
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurants_hero_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.restaurants_hero_text_card {
+    display: inline-block;
+    padding: 2rem 3rem;
+
+    border: 3px solid var(--clr-gold);
+    border-radius: 1.5rem;
+
+    background: rgba(0, 40, 85, 0.35);
+    backdrop-filter: blur(1.75px);
+}
+.restaurants_hero_text h1 {
+    color: var(--clr-white);
+    font-size: var(--fs-xlarge);
+    font-weight: var(--fw-bold);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.restaurants_hero_text p {
+    color: var(--clr-light-blue);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-medium);
+}
+
+/*Places to stay Styling section********************************************************************************************/
+
+.pts_hero { 
+    min-height: 75vh;
+    background-image: url("/Res/Pics/cbus/nvvm.pan2c2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pts_hero_overlay {
+    min-height: 75vh;
+    background: linear-gradient(
+    rgba(0, 40, 85, 0.05),
+    rgba(0, 27, 58, 0.8)
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pts_hero_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.pts_hero_text_card {
+    display: inline-block;
+    padding: 2rem 3rem;
+
+    border: 3px solid var(--clr-gold);
+    border-radius: 1.5rem;
+
+    background: rgba(0, 40, 85, 0.35);
+    backdrop-filter: blur(1.75px);
+}
+.pts_hero_text h1 {
+    color: var(--clr-white);
+    font-size: var(--fs-xlarge);
+    font-weight: var(--fw-bold);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.pts_hero_text p {
+    color: var(--clr-light-blue);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-medium);
+}
 
 /* RESPONSIVE */
 @media screen and (max-width: 900px) {
@@ -329,6 +598,27 @@ flex-direction: row;
 
     .info_text_container {
         margin: 0 auto;
+    }
+
+    .text_card {
+        border-left: none;
+        border-top: 6px solid var(--clr-gold);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .info_card,
+    .info_card.reverse {
+        grid-template-columns: 1fr;
+    }
+
+    .info_card.reverse .info_img_container,
+    .info_card.reverse .info_text_container {
+        order: unset;
+    }
+
+    .info_text_container {
+        text-align: center;
     }
 
     .text_card {
@@ -358,26 +648,6 @@ flex-direction: row;
         font-size: 1rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -543,26 +813,4 @@ flex-direction: row;
     background: var(--clr-navy);
     color: var(--clr-white);
     transform: translateY(-2px);
-}
-
-/* MOBILE */
-@media screen and (max-width: 850px) {
-    .info_card,
-    .info_card.reverse {
-        grid-template-columns: 1fr;
-    }
-
-    .info_card.reverse .info_img_container,
-    .info_card.reverse .info_text_container {
-        order: unset;
-    }
-
-    .info_text_container {
-        text-align: center;
-    }
-
-    .text_card {
-        border-left: none;
-        border-top: 6px solid var(--clr-gold);
-    }
 }
