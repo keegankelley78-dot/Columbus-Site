@@ -238,43 +238,87 @@ body {
 
 /* THINGS TO DO STYLING SECTION********************************************************************************************/
 
-    .ttd_hero { 
-        min-height: 75vh;
-        background-image: url("/Res/Pics/ttd/Children\'s\ Garden\ 1.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+.ttd_hero { 
+    min-height: 75vh;
+    background-image: url("/Res/Pics/ttd/Children\'s\ Garden\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-    .ttd_hero_overlay {
-        min-height: 75vh;
-        background: linear-gradient(
-            rgba(0, 40, 85, 0.05),
-            rgba(0, 27, 58, 0.8)
-        );
+.ttd_hero_overlay {
+    min-height: 75vh;
+    background: linear-gradient(
+    rgba(0, 40, 85, 0.05),
+    rgba(0, 27, 58, 0.8)
+    );
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .ttd_hero_container {
-        width: 100%;
-        max-width: 1200px;
-        padding: 2rem;
-        text-align: center;
-    }
+.ttd_hero_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+}
 
-    .ttd_hero_text_card {
-        display: inline-block;
-        padding: 2rem 3rem;
+.ttd_hero_text_card {
+    display: inline-block;
+    padding: 2rem 3rem;
 
-        border: 3px solid var(--clr-gold);
-        border-radius: 1.5rem;
+    border: 3px solid var(--clr-gold);
+    border-radius: 1.5rem;
 
-        background: rgba(0, 40, 85, 0.35);
-        backdrop-filter: blur(1.75px);
-    }
+    background: rgba(0, 40, 85, 0.35);
+    backdrop-filter: blur(1.75px);
+}
+.ttd_hero_text h1 {
+    color: var(--clr-white);
+    font-size: var(--fs-xlarge);
+    font-weight: var(--fw-bold);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.ttd_hero_text p {
+    color: var(--clr-light-blue);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-medium);
+}
+
+/* TTD header styling**********/
+
+.ttd_header{
+display: flex;
+flex-direction: column;
+}
+.ttd_header_container{
+display: flex;
+flex-direction: row;
+}
+.ttd_header_img{
+    display: flex;
+
+    border-radius: 1.5rem;
+}
+.ttd_header_img img{
+    width: 20rem;
+    height: auto;
+    border-radius: 1.5rem;
+}
+.ttd_header_text{
+    display: flex;
+    padding: 2rem 3rem;
+
+    border: 3px solid var(--clr-gold);
+    border-radius: 1.5rem;
+
+}
+
+
 
 /* RESPONSIVE */
 @media screen and (max-width: 900px) {
