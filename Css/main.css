@@ -297,6 +297,7 @@ body {
 .ttd_header_container{
     display: flex;
     flex-direction: row;
+    align-items: center;
 
 }
 .ttd_header_img{
@@ -776,7 +777,7 @@ body {
 
 
 
-.info_cards_section {
+/* .info_cards_section {
     width: 100%;
     background: var(--clr-light-blue);
     padding: 5rem 2rem;
@@ -789,7 +790,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-}
+}s
 
 .info_card {
     display: grid;
@@ -938,4 +939,4 @@ body {
     background: var(--clr-navy);
     color: var(--clr-white);
     transform: translateY(-2px);
-}
+} */
