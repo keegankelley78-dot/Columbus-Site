@@ -836,8 +836,12 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: 50% center;
+    display: block;
 
-    transition: transform 0.35s ease, opacity 0.35s ease;
+    transition: transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+}
+#pts_header_img-4{
+    object-position: 3.5% center;
 }
 
 .pts_header_card:hover img {
@@ -861,6 +865,13 @@ body {
     color: white;
 
     background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
+    display: none;
+}
+.the{
+    font-size: 1.25rem;
+}
+.pts_header_caption:hover{
+    display: block;
 }
 
 /* RESPONSIVE */
