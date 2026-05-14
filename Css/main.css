@@ -823,8 +823,9 @@ body {
     border-radius: 1.5rem;
     overflow: hidden;
 
-    background: #000;
+    background: black;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    perspective: 1000px;
 
     cursor: pointer;
 
@@ -865,13 +866,43 @@ body {
     color: white;
 
     background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
-    display: none;
+
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
+.pts_header_card:hover .pts_header_caption {
+    opacity: 1;
+}
+
 .the{
     font-size: 1.25rem;
 }
-.pts_header_caption:hover{
-    display: block;
+
+/* Card flip */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.is-flipped {
+  transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: var(--clr-navy-dark);
+  color: white;
+  transform: rotateY(180deg);
 }
 
 /* RESPONSIVE */
