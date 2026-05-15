@@ -7,38 +7,38 @@
         "image": "/Res/Pics/ttd/09500_hr.jpg"
     },
     {
-        "title": "Nightlife",
-        "description": "Explore live entertainment, restaurants, evening events, and downtown spots.",
-        "buttonText": "Explore Nightlife",
-        "link": "#nightlife",
-        "image": "/Res/Pics/ttd/09500_hr.jpg"
+        "title": "Shopping",
+        "description": "Shop at malls, local stores, markets, boutiques, and downtown districts.",
+        "buttonText": "Go Shopping",
+        "link": "#shopping",
+        "image": "/Res/Pics/ttd/DSC_5384.jpg"
     },
     {
         "title": "Outdoors",
         "description": "Find parks, trails, gardens, riverfront areas, and outdoor activities.",
         "buttonText": "Find Outdoor Spots",
         "link": "#outdoors",
-        "image": "/Res/Pics/ttd/09500_hr.jpg"
+        "image": "/Res/Pics/ttd/ChildrensGarden1.jpg"
     },
     {
         "title": "Music",
         "description": "Check out concerts, local venues, festivals, and live music around Columbus.",
         "buttonText": "See Music Venues",
         "link": "#music",
-        "image": "/Res/Pics/ttd/09500_hr.jpg"
+        "image": "/Res/Pics/Sports/arena/06129_hr.jpg"
     },
     {
-        "title": "Shopping",
-        "description": "Shop at malls, local stores, markets, boutiques, and downtown districts.",
-        "buttonText": "Go Shopping",
-        "link": "#shopping",
-        "image": "/Res/Pics/ttd/09500_hr.jpg"
+        "title": "Nightlife",
+        "description": "Explore live entertainment, restaurants, evening events, and downtown spots.",
+        "buttonText": "Explore Nightlife",
+        "link": "#nightlife",
+        "image": "/Res/Pics/ttd/nvmm.cosi1a2.jpg"
     },
     {
         "title": "Day Trip Fun",
         "description": "Plan a fun day around Columbus with food, photos, parks, and activities.",
         "buttonText": "Plan a Day Trip",
         "link": "#day-trips",
-        "image": "/Res/Pics/ttd/09500_hr.jpg"
+        "image": "/Res/Pics/ttd/Cp/9FeAHBoKz6W7mVY77PyaV3-1280-80.jpg"
     }
 ]

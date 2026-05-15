@@ -328,8 +328,22 @@ body {
 }
 
 /* subject cards **********/
+.ttd_subject_card{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+
+}
+.ttd_subjects_card_header{
+    display: flex;
+    flex-direction: column;
+
+    justify-self: center;
+    align-items: center;
+}
 .ttd_subjects_card_container {
     max-width: 1050px;
+    padding: 3rem;
     margin: 0 auto;
 
     display: grid;

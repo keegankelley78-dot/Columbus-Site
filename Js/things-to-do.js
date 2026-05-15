@@ -1,5 +1,3 @@
-alert("things-to-do.js is connected");
-
 const ttdSubjectCardsContainer = document.getElementById("ttdSubjectCardsContainer");
 
 async function loadSubjectCards() {
@@ -9,7 +7,7 @@ async function loadSubjectCards() {
     }
 
     try {
-        const response = await fetch("/Data/ttd-subject-cards.json");
+        const response = await fetch("../Res/Data/ttd-subject-cards.json");
 
         if (!response.ok) {
             throw new Error("JSON file not found. Status: " + response.status);

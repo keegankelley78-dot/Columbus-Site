@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     async function loadInfoCards() {
         try {
-            const response = await fetch("../Data/info-cards.JSON");
+            const response = await fetch("../Res/Data/info-cards.JSON");
 
             if (!response.ok) {
                 throw new Error("Could not load JSON file. Check the file path.");
