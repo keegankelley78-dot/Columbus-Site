@@ -1,4 +1,4 @@
-{
+[
     {
         "title": "Things To Do",
         "description": "Columbus offers museums, parks, shopping areas, public art, festivals, and local attractions for visitors of all ages.",
@@ -109,4 +109,4 @@
             }
         ]
     }
-}
+]

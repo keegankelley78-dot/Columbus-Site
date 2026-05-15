@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Attractions",
+        "description": "Visit popular Columbus landmarks, museums, and family-friendly destinations.",
+        "buttonText": "View Attractions",
+        "link": "#attractions",
+        "image": "/Res/Pics/ttd/09500_hr.jpg"
+    },
+    {
+        "title": "Nightlife",
+        "description": "Explore live entertainment, restaurants, evening events, and downtown spots.",
+        "buttonText": "Explore Nightlife",
+        "link": "#nightlife",
+        "image": "/Res/Pics/ttd/09500_hr.jpg"
+    },
+    {
+        "title": "Outdoors",
+        "description": "Find parks, trails, gardens, riverfront areas, and outdoor activities.",
+        "buttonText": "Find Outdoor Spots",
+        "link": "#outdoors",
+        "image": "/Res/Pics/ttd/09500_hr.jpg"
+    },
+    {
+        "title": "Music",
+        "description": "Check out concerts, local venues, festivals, and live music around Columbus.",
+        "buttonText": "See Music Venues",
+        "link": "#music",
+        "image": "/Res/Pics/ttd/09500_hr.jpg"
+    },
+    {
+        "title": "Shopping",
+        "description": "Shop at malls, local stores, markets, boutiques, and downtown districts.",
+        "buttonText": "Go Shopping",
+        "link": "#shopping",
+        "image": "/Res/Pics/ttd/09500_hr.jpg"
+    },
+    {
+        "title": "Day Trip Fun",
+        "description": "Plan a fun day around Columbus with food, photos, parks, and activities.",
+        "buttonText": "Plan a Day Trip",
+        "link": "#day-trips",
+        "image": "/Res/Pics/ttd/09500_hr.jpg"
+    }
+]

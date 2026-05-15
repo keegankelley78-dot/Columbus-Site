@@ -327,6 +327,78 @@ body {
     color: var(--clr-white);
 }
 
+/* subject cards **********/
+.ttd_subjects_card_container {
+    max-width: 1050px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.ttd_subject_card {
+    min-height: 13rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 8px 22px rgba(0, 40, 85, 0.18);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ttd_subject_card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 40, 85, 0.28);
+}
+
+.ttd_subject_card_content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.ttd_subject_card_content h2 {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.ttd_subject_card_content p {
+    color: var(--clr-white);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+
+.ttd_subject_btn {
+    display: inline-block;
+
+    padding: 0.75rem 1.1rem;
+    border: 2px solid var(--clr-gold);
+    border-radius: 0.5rem;
+
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: var(--fw-medium);
+
+    transition: 0.3s ease;
+}
+
+.ttd_subject_btn:hover {
+    background-color: var(--clr-gold);
+    color: var(--clr-navy);
+}
+
+
 /*Sports Styling Sections*********************************************************************************/
 
 .sports_hero { 
@@ -812,6 +884,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
+    overflow: hidden;
 }
 
 /* Individual Card */
@@ -936,6 +1009,9 @@ body {
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
     }
+    .ttd_subjects_card_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -998,6 +1074,9 @@ body {
         max-width: 350px;
         width: 100%;
         margin: 0 auto;
+    }
+    .ttd_subjects_card_container {
+        grid-template-columns: 1fr;
     }
 }
 
