@@ -412,6 +412,188 @@ body {
     color: var(--clr-navy);
 }
 
+/* atrations card*****************************************************************************************/
+
+.attrations_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    gap: 2rem;
+    max-width: 1200px;
+}
+
+.attrations_card{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column; 
+    align-items: center;
+    color: var(--clr-dark);
+    background: var(--clr-navy);
+    min-height: 24rem;
+    height: auto;
+    width: 20rem;
+
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+.attrations_card:hover{
+    transform: translateY(-5px);
+    transform: scale(1.02);
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.attrations_card.active{
+    height: 40rem;
+}
+
+.attrations_card h1{
+    font-size:  2.8rem;
+    line-height: 2rem;
+    word-break: break-word;
+    margin-bottom: 0.5rem;
+
+}
+.attrations_card img{
+    width: 11rem;
+    height: auto;
+    object-fit: contain; 
+    margin: 0.5rem 0;
+    margin-top: 2.5rem;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}    
+.title{
+    font-size: 1.7rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+.text{
+    font-size: 1rem;
+    display: none;
+    font-size: 1.5rem;
+    font-size: 1.1rem;
+    opacity: 0.8;
+    margin-bottom: 12px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+.text,
+.title {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* when active */
+.attrations_card.active .text,
+.attrations_card.active .title {
+    opacity: 1;
+    max-height: 500px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+.attrations_card.active{
+    height: auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+.attrations_card.active{
+    height: auto;
+    
+}
+
+/*card Javascript*/
+.drop_down{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+.attrations_card.active{
+    height: auto;
+    
+}
+
+.attrations_card img:hover{
+    transform: scale(1.25);
+}
+.attrations_card.active .text,
+.attrations_card.active .title {
+    display: block;
+}
+.attrations_card.active .toggle_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toggle_container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+.toggle{
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.24rem;
+    height: 2.5rem;
+    width: 6.35rem;
+    /* top: 30px;
+    right: 30px; */
+    background-color: var(--clr-white);
+    color: #231f20;
+    border-radius: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 2s ease-in-out;
+}
+.toggle:hover{
+    transform: scale(1.05);
+
+}
+
+.attrations_card .toggle{
+    background-color: var(--clr-white);
+}
+
+
+.attrations_card h1{
+    font-size:  3rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+
+}
 
 /*Sports Styling Sections*********************************************************************************/
 
@@ -606,6 +788,43 @@ body {
     color: var(--clr-light-blue);
     font-size: var(--fs-large);
     font-weight: var(--fw-medium);
+}
+/*events header**********************************************************************************************/
+
+.event_header{
+    padding: 3rem 2rem;
+}
+.event_header_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.event_header_img{
+    display: flex;
+    margin-right: 5rem;
+    border-radius: 1.5rem;
+}
+.event_header_img img{
+    width: 50rem;
+    height: auto;
+    border-radius: 1.5rem;
+}
+.event_header_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--clr-navy);
+    border-radius: 1.5rem;
+}
+.event_header_text h1{
+    color: var(--clr-white);
+}
+.event_header_text p{
+    color: var(--clr-white);
 }
 
 /*culture Styling sections********************************************************************************/
