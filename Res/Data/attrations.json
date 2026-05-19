@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Attrations",
+        "description": "Explore some of the best attractions, parks, museums, and entertainment spots around Columbus.",
+        "mainImage": "/Res/Pics/ttd/DSC_5052.jpg",
+        "mainImageAlt": "Columbus skyline",
+        "link": "#Attrations",
+        "places": [
+            {
+                "name": "Columbus Zoo and Aquarium",
+                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
+                "alt": "Columbus Zoo",
+                "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
+            },
+            {
+                "name": "COSI",
+                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "alt": "COSI",
+                "description": "A hands-on science museum with interactive exhibits, experiments, and learning activities."
+            },
+            {
+                "name": "German Village",
+                "image": "/Res/Pics/cultures/Experience-Columbus-319.jpg",
+                "alt": "German Village",
+                "description": "A historic neighborhood with brick streets, local restaurants, shops, parks, and brick roads."
+            },
+            {
+                "name": "Scioto Mile",
+                "image": "/Res/Pics/cbus/11.jpg",
+                "alt": "Scioto Mile",
+                "description": "A downtown riverfront area with walking paths, fountains, city views, and green space."
+            }
+        ]
+    },
+
+    {
+        "title": "Shopping",
+        "description": "Explore some of the best attractions, parks, museums, and entertainment spots around Columbus.",
+        "mainImage": "/Res/Pics/ttd/columbus-4026_36261976862_o.jpg",
+        "mainImageAlt": "Columbus skyline",
+        "places": [
+            {
+                "name": "Columbus Zoo and Aquarium",
+                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
+                "alt": "Columbus Zoo",
+                "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
+            },
+            {
+                "name": "COSI",
+                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "alt": "COSI",
+                "description": "A hands-on science museum with interactive exhibits, experiments, and learning activities."
+            },
+            {
+                "name": "German Village",
+                "image": "/Res/Pics/ttd/Berliner 3.jpg",
+                "alt": "German Village",
+                "description": "A historic neighborhood with brick streets, local restaurants, shops, parks, and brick roads."
+            },
+            {
+                "name": "Scioto Mile",
+                "image": "/Res/Pics/ttd/10015_hr.jpg",
+                "alt": "Scioto Mile",
+                "description": "A downtown riverfront area with walking paths, fountains, city views, and green space."
+            }
+        ]
+    }
+]
