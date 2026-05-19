@@ -50,6 +50,21 @@ document.addEventListener("DOMContentLoaded", function () {
             const firstSlide = topic.slides[0];
 
             card.innerHTML = `
+            <div class="info_card_contents">
+                <div class="info_text_container">
+                    <div class="info_header">
+                        <h2 class="title_text">${topic.title}</h2>
+                    </div>
+
+                    <div class="text_card">
+                        <p class="description_text">${topic.description}</p>
+
+                        <button class="info_button">
+                            ${topic.buttonText}
+                        </button>
+                    </div>
+                </div>
+
                 <div class="info_img_container">
                     <div class="slideshow_container">
                         <img 
@@ -69,20 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </div>
                 </div>
-
-                <div class="info_text_container">
-                    <div class="info_header">
-                        <h2 class="title_text">${topic.title}</h2>
-                    </div>
-
-                    <div class="text_card">
-                        <p class="description_text">${topic.description}</p>
-
-                        <button class="info_button">
-                            ${topic.buttonText}
-                        </button>
-                    </div>
-                </div>
+            </div>
             `;
 
             infoCardsContainer.appendChild(card);
