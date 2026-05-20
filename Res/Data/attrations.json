@@ -1,14 +1,15 @@
 [
     {
+        "id": "attrations",
         "title": "Attrations",
         "description": "Explore some of the best attractions, parks, museums, and entertainment spots around Columbus.",
         "mainImage": "/Res/Pics/ttd/DSC_5052.jpg",
         "mainImageAlt": "Columbus skyline",
-        "link": "#Attrations",
+        "link": "attrations",
         "places": [
             {
                 "name": "Columbus Zoo and Aquarium",
-                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
+                "image": "/Res/Pics/ttd/09500_hr.jpg",
                 "alt": "Columbus Zoo",
                 "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
             },
@@ -32,110 +33,36 @@
             }
         ]
     },
-
     {
+        "id": "shopping",
         "title": "Shopping",
-        "description": "Explore some of the best attractions, parks, museums, and entertainment spots around Columbus.",
+        "description": "Explore places to shop around Columbus.",
         "mainImage": "/Res/Pics/ttd/columbus-4026_36261976862_o.jpg",
-        "mainImageAlt": "Columbus skyline",
+        "mainImageAlt": "Shopping in Columbus",
         "places": [
             {
-                "name": "Columbus Zoo and Aquarium",
-                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
-                "alt": "Columbus Zoo",
-                "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
+                "name": "Easton Town Center",
+                "image": "/Res/Pics/ttd/09500_hr.jpg",
+                "alt": "Easton Town Center",
+                "description": "A large outdoor shopping center with stores, restaurants, and entertainment."
             },
             {
-                "name": "COSI",
+                "name": "Polaris Fashion Place",
                 "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
-                "alt": "COSI",
-                "description": "A hands-on science museum with interactive exhibits, experiments, and learning activities."
+                "alt": "Polaris Fashion Place",
+                "description": "A mall with clothing stores, food, and popular shopping options."
             },
             {
-                "name": "German Village",
+                "name": "German Village Shops",
                 "image": "/Res/Pics/ttd/Berliner 3.jpg",
-                "alt": "German Village",
-                "description": "A historic neighborhood with brick streets, local restaurants, shops, parks, and brick roads."
+                "alt": "German Village Shops",
+                "description": "A historic area with smaller local shops and restaurants."
             },
             {
-                "name": "Scioto Mile",
+                "name": "Short North",
                 "image": "/Res/Pics/ttd/10015_hr.jpg",
-                "alt": "Scioto Mile",
-                "description": "A downtown riverfront area with walking paths, fountains, city views, and green space."
-            }
-        ]
-    },
-    {
-        "title": "Outdoors",
-        "description": "out side ",
-        "mainImage": "/Res/Pics/ttd/columbus-4026_36261976862_o.jpg",
-        "mainImageAlt": "Columbus skyline",
-        "places": [
-            {
-                "name": "Columbus Zoo and Aquarium",
-                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
-                "alt": "Columbus Zoo",
-                "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
-            },
-            {
-                "name": "COSI",
-                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
-                "alt": "COSI",
-                "description": "A hands-on science museum with interactive exhibits, experiments, and learning activities."
-            },
-            {
-                "name": "German Village",
-                "image": "/Res/Pics/ttd/Berliner 3.jpg",
-                "alt": "German Village",
-                "description": "A historic neighborhood with brick streets, local restaurants, shops, parks, and brick roads."
-            },
-            {
-                "name": "Scioto Mile",
-                "image": "/Res/Pics/ttd/10015_hr.jpg",
-                "alt": "Scioto Mile",
-                "description": "A downtown riverfront area with walking paths, fountains, city views, and green space."
-            }
-        ]
-    },
-    {
-        "title": "Music",
-        "description": "music ",
-        "mainImage": "/Res/Pics/ttd/columbus-4026_36261976862_o.jpg",
-        "mainImageAlt": "Columbus skyline",
-        "places": [
-            {
-                "name": "Columbus Zoo and Aquarium",
-                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
-                "alt": "Columbus Zoo",
-                "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
-            }
-        ]
-    },
-    {
-        "title": "Nightlife",
-        "description": "out side ",
-        "mainImage": "/Res/Pics/ttd/columbus-4026_36261976862_o.jpg",
-        "mainImageAlt": "Columbus skyline",
-        "places": [
-            {
-                "name": "Columbus Zoo and Aquarium",
-                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
-                "alt": "Columbus Zoo",
-                "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
-            }
-        ]
-    },
-    {
-        "title": "Day Trip Fun",
-        "description": "out side ",
-        "mainImage": "/Res/Pics/ttd/columbus-4026_36261976862_o.jpg",
-        "mainImageAlt": "Columbus skyline",
-        "places": [
-            {
-                "name": "Columbus Zoo and Aquarium",
-                "image": "/Res/Pics/ttd/09500_hr.jpg    ",
-                "alt": "Columbus Zoo",
-                "description": "A popular family attraction with animals, exhibits, shows, and seasonal events."
+                "alt": "Short North",
+                "description": "An arts district with boutiques, galleries, food, and nightlife."
             }
         ]
     }
