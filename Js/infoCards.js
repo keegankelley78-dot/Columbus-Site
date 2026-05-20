@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const firstSlide = topic.slides[0];
 
             card.innerHTML = `
-            <div class="info_card_contents">
+            <div class="info_cards_contents">
                 <div class="info_text_container">
                     <div class="info_header">
                         <h2 class="title_text">${topic.title}</h2>

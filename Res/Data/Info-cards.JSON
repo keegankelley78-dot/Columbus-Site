@@ -10,12 +10,12 @@
                 "info": "Downtown is a popular area for attractions, restaurants, events, and walking."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/cbus/DSC_5270.jpg",
                 "caption": "Scioto Mile",
                 "info": "The Scioto Mile has riverfront views, trails, fountains, and green space."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/ttd/FX80V-26-National Veterans Memorial and Museum.jpg",
                 "caption": "Local Museums",
                 "info": "Columbus has museums focused on art, history, science, and culture."
             }
@@ -32,12 +32,12 @@
                 "info": "The Blue Jackets play NHL hockey at Nationwide Arena."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/Sports/crew/crew kick.jpg",
                 "caption": "Columbus Crew",
                 "info": "The Columbus Crew are a professional soccer team based in the city."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/Sports/Osu/_DSC2632.jpg",
                 "caption": "Ohio State Athletics",
                 "info": "Ohio State sports bring major crowds and energy to Columbus."
             }
@@ -49,17 +49,17 @@
         "buttonText": "Find Food",
         "slides": [
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/cultures/Experience Columbus July-204.jpg",
                 "caption": "Local Restaurants",
                 "info": "Columbus has many local restaurants across downtown and nearby districts."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/ttd/DSC_5384.jpg",
                 "caption": "North Market",
                 "info": "North Market is a popular food destination with many vendors."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/cultures/Experience Columbus July-025.jpg",
                 "caption": "Coffee Shops",
                 "info": "The city has many coffee shops for visitors to relax or work."
             }
@@ -93,17 +93,17 @@
         "buttonText": "Plan Travel",
         "slides": [
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/events/526886487_1332772968848956_7302945434453823601_n.jpg",
                 "caption": "COTA Bus",
                 "info": "COTA provides bus transportation throughout Columbus."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/events/Screenshot 2026-05-19 102845.png",
                 "caption": "Bike Routes",
                 "info": "Bike paths and trails help visitors explore parts of the city."
             },
             {
-                "image": "/Res/Pics/food/BrewDog.jpg",
+                "image": "/Res/Pics/cbus/DSC_2088.jpg",
                 "caption": "Walkable Areas",
                 "info": "Downtown, the Short North, and German Village are good areas for walking."
             }

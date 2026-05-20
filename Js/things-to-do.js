@@ -36,6 +36,7 @@ function createSubjectCards(cards) {
         const cardElement = document.createElement("div");
         cardElement.classList.add("ttd_subject_card");
 
+        console.log(card)
         cardElement.style.backgroundImage = `
             linear-gradient(rgba(0, 40, 85, 0.55), rgba(0, 40, 85, 0.78)),
             url("${card.image}")
@@ -45,7 +46,7 @@ function createSubjectCards(cards) {
             <div class="ttd_subject_card_content">
                 <h2>${card.title}</h2>
                 <p>${card.description}</p>
-                <a href="${card.link}" class="ttd_subject_btn">${card.buttonText}</a>
+                <a href="things-to-do.html${card.link}" class="ttd_subject_btn">${card.buttonText}</a>
             </div>
         `;
 
