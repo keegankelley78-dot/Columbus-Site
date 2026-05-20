@@ -1,10 +1,6 @@
 const attrationsContainer = document.getElementById("attrationsContainer");
 
 async function loadAttrations() {
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
     try {
         const response = await fetch("/Res/Data/attrations.json");
 
@@ -13,39 +9,21 @@ async function loadAttrations() {
         }
 
         const attrations = await response.json();
-<<<<<<< Updated upstream
-
-        createAttrationCards(attrations);
-
-    } catch (error) {
-=======
         createAttrationCards(attrations);
 
     } 
     catch (error) {
->>>>>>> Stashed changes
         console.error("Attrations loading error:", error);
 
         attrationsContainer.innerHTML = `
             <p class="error_message">Could not load attractions.</p>
         `;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
     }
 }
 
 function createAttrationCards(attrations) {
 attrationsContainer.innerHTML = "";
 
-<<<<<<< Updated upstream
-    attrations.forEach(attration => {
-        const card = document.createElement("div");
-        card.classList.add("attrations_card");
-=======
-
->>>>>>> Stashed changes
 
 attrations.forEach(attration => {
     
@@ -158,45 +136,6 @@ function createPlaces(places) {
 
     });
 
-<<<<<<< Updated upstream
-    setupAttrationButtons();
-}
-
-function createPlaces(places) {
-    return places.map(place => {
-        return `
-            <div class="place_card">
-                <img src="${place.image}" alt="${place.alt}">
-
-                <div class="place_text">
-                    <h3>${place.name}</h3>
-                    <p>${place.description}</p>
-                </div>
-            </div>
-        `;
-    }).join("");
-}
-
-function setupAttrationButtons() {
-    const toggles = document.querySelectorAll(".toggle");
-
-    toggles.forEach(toggle => {
-        toggle.addEventListener("click", e => {
-            const card = e.target.closest(".attrations_card");
-
-            if (card) {
-                card.classList.toggle("active");
-
-                if (card.classList.contains("active")) {
-                    toggle.textContent = "Show Less";
-                } else {
-                    toggle.textContent = "More Info";
-                }
-            }
-        });
-    });
-=======
->>>>>>> Stashed changes
 }
 
 loadAttrations();

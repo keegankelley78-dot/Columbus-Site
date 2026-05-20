@@ -445,7 +445,7 @@ body {
 
 .attrations_card {
     width: 100%;
-    background-color: #f5f7fa;
+    background-color: var(--clr-navy-dark);
     border-radius: 18px;
     overflow: hidden;
 
@@ -476,14 +476,14 @@ body {
 
 .attrations_text h1 {
     font-size: 2.4rem;
-    color: #002855;
+    color: var(--clr-white);
     margin-bottom: 1rem;
 }
 
 .attrations_text p {
     font-size: 1.05rem;
     line-height: 1.6;
-    color: #444;
+    color: #f5f7fa;
     margin-bottom: 1.5rem;
 }
 
