@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Teams",
+        "description": "Explore Columbus sports teams including professional, college, and local clubs.",
+        "buttonText": "View Teams",
+        "link": "#teams",
+        "image": "/Res/Pics/Sports/teams.jpg"
+    },
+    {
+        "title": "Stadiums",
+        "description": "Visit major sports venues, arenas, and stadiums around Columbus.",
+        "buttonText": "View Stadiums",
+        "link": "#stadiums",
+        "image": "/Res/Pics/Sports/arena/arena-district-DJI_0773.jpg"
+    },
+    {
+        "title": "Events",
+        "description": "Find upcoming games, tournaments, and live sporting events.",
+        "buttonText": "See Events",
+        "link": "#events",
+        "image": "/Res/Pics/Sports/extra/10307_hr.jpg"
+    },
+    {
+        "title": "Recreation",
+        "description": "Discover local sports complexes, rec centers, and pickup game spots.",
+        "buttonText": "Find Recreation",
+        "link": "#recreation",
+        "image": "/Res/Pics/Sports/golf/183175291.jpg"
+    },
+    {
+        "title": "Sports Culture",
+        "description": "Explore the traditions, rivalries, and identity that define Columbus sports and its fan experience.",
+        "buttonText": "Explore Culture",
+        "link": "#sports-culture",
+        "image": "/Res/Pics/Sports/culture.jpg"
+    },
+    {
+        "title": "Fan Experiences",
+        "description": "Enjoy tailgates, fan zones, and game-day experiences in Columbus.",
+        "buttonText": "Explore Fan Life",
+        "link": "#fan-experience",
+        "image": "/Res/Pics/Sports/arena/Plaza-HDR.JPG"
+    }
+]

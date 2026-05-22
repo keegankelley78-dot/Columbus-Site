@@ -1,0 +1,206 @@
+[
+    {
+        "id": "teams",
+        "title": "Teams",
+        "description": "Explore Columbus sports teams including professional franchises, college athletics, and local clubs across different sports.",
+        "mainImage": "/Res/Pics/Sports/arena/06129_hr.jpg",
+        "mainImageAlt": "Columbus sports teams",
+        "link": "teams",
+        "places": [
+            {
+                "name": "Columbus Crew",
+                "image": "/Res/Pics/Sports/crew.jpg",
+                "alt": "Columbus Crew Stadium",
+                "description": "Major League Soccer team playing at Lower.com Field, known for passionate fans and championship history."
+            },
+            {
+                "name": "Columbus Blue Jackets",
+                "image": "/Res/Pics/Sports/bluejackets.jpg",
+                "alt": "Blue Jackets hockey team",
+                "description": "NHL team playing at Nationwide Arena, bringing high-energy hockey to downtown Columbus."
+            },
+            {
+                "name": "Ohio State Buckeyes",
+                "image": "/Res/Pics/Sports/osu.jpg",
+                "alt": "Ohio State athletics",
+                "description": "One of the biggest college sports programs in the country across football, basketball, and more."
+            },
+            {
+                "name": "Columbus Clippers",
+                "image": "/Res/Pics/Sports/clippers.jpg",
+                "alt": "Columbus Clippers baseball",
+                "description": "Minor league baseball team affiliated with the Cleveland Guardians, playing at Huntington Park."
+            }
+        ]
+    },
+    {
+        "id": "stadiums",
+        "title": "Stadiums",
+        "description": "Visit Columbus’ top sports venues, arenas, and stadiums hosting professional and college events year-round.",
+        "mainImage": "/Res/Pics/Sports/stadiums.jpg",
+        "mainImageAlt": "Columbus stadiums",
+        "link": "stadiums",
+        "places": [
+            {
+                "name": "Lower.com Field",
+                "image": "/Res/Pics/Sports/lower.jpg",
+                "alt": "Lower.com Field",
+                "description": "Home of the Columbus Crew with modern design and an intense matchday atmosphere."
+            },
+            {
+                "name": "Nationwide Arena",
+                "image": "/Res/Pics/Sports/nationwide.jpg",
+                "alt": "Nationwide Arena",
+                "description": "Downtown arena hosting Columbus Blue Jackets games, concerts, and major events."
+            },
+            {
+                "name": "Ohio Stadium",
+                "image": "/Res/Pics/Sports/horseshoe.jpg",
+                "alt": "Ohio Stadium",
+                "description": "Iconic football stadium known as ‘The Horseshoe,’ home of Ohio State Buckeyes football."
+            },
+            {
+                "name": "Huntington Park",
+                "image": "/Res/Pics/Sports/huntington.jpg",
+                "alt": "Huntington Park baseball stadium",
+                "description": "Downtown baseball stadium home of the Columbus Clippers."
+            }
+        ]
+    },
+    {
+        "id": "events",
+        "title": "Events",
+        "description": "Find upcoming games, tournaments, and live sporting events happening across Columbus.",
+        "mainImage": "/Res/Pics/Sports/events.jpg",
+        "mainImageAlt": "Sports events in Columbus",
+        "link": "events",
+        "places": [
+            {
+                "name": "OSU Football Games",
+                "image": "/Res/Pics/Sports/osu-game.jpg",
+                "alt": "Ohio State football game",
+                "description": "Massive college football events at Ohio Stadium with one of the loudest atmospheres in sports."
+            },
+            {
+                "name": "Crew Matchdays",
+                "image": "/Res/Pics/Sports/crew-match.jpg",
+                "alt": "Columbus Crew match",
+                "description": "MLS matchdays at Lower.com Field with chants, smoke, and fan energy."
+            },
+            {
+                "name": "Blue Jackets Games",
+                "image": "/Res/Pics/Sports/hockey-game.jpg",
+                "alt": "Blue Jackets hockey game",
+                "description": "Fast-paced NHL hockey games at Nationwide Arena."
+            },
+            {
+                "name": "High School Championships",
+                "image": "/Res/Pics/Sports/highschool.jpg",
+                "alt": "High school sports event",
+                "description": "Local championship events showcasing top youth and school athletes in Ohio."
+            }
+        ]
+    },
+    {
+        "id": "recreation",
+        "title": "Recreation",
+        "description": "Discover sports complexes, recreation centers, and places to play pickup games around Columbus.",
+        "mainImage": "/Res/Pics/Sports/recreation.jpg",
+        "mainImageAlt": "Sports recreation in Columbus",
+        "link": "recreation",
+        "places": [
+            {
+                "name": "Pickup Soccer Fields",
+                "image": "/Res/Pics/Sports/soccer.jpg",
+                "alt": "Soccer fields",
+                "description": "Open fields around Columbus used for pickup soccer and local leagues."
+            },
+            {
+                "name": "Basketball Courts",
+                "image": "/Res/Pics/Sports/basketball.jpg",
+                "alt": "Outdoor basketball courts",
+                "description": "Public courts across the city for casual and competitive basketball games."
+            },
+            {
+                "name": "Columbus Recreation Centers",
+                "image": "/Res/Pics/Sports/rec-center.jpg",
+                "alt": "Recreation center",
+                "description": "Indoor facilities offering gyms, courts, and fitness programs."
+            },
+            {
+                "name": "Pickleball Courts",
+                "image": "/Res/Pics/Sports/pickleball.jpg",
+                "alt": "Pickleball courts",
+                "description": "Fast-growing sport with courts across parks and recreation areas in Columbus."
+            }
+        ]
+    },
+    {
+        "id": "sports-culture",
+        "title": "Sports Culture",
+        "description": "Explore the traditions, rivalries, and identity that shape Columbus sports, from college pride to professional fandom.",
+        "mainImage": "/Res/Pics/Sports/culture.jpg",
+        "mainImageAlt": "Columbus sports culture",
+        "link": "sports-culture",
+        "places": [
+            {
+                "name": "Ohio State Tradition",
+                "image": "/Res/Pics/Sports/osu-tradition.jpg",
+                "alt": "Ohio State tradition",
+                "description": "Game day traditions, marching band, and Buckeye pride at Ohio Stadium."
+            },
+            {
+                "name": "Crew Supporter Culture",
+                "image": "/Res/Pics/Sports/crew-supporters.jpg",
+                "alt": "Crew supporters section",
+                "description": "The famous Nordecke supporters section known for chants and nonstop energy."
+            },
+            {
+                "name": "Rivalries",
+                "image": "/Res/Pics/Sports/rivalry.jpg",
+                "alt": "Sports rivalry atmosphere",
+                "description": "Historic rivalries that define Columbus sports identity and fan passion."
+            },
+            {
+                "name": "Game Day Atmosphere",
+                "image": "/Res/Pics/Sports/game-day.jpg",
+                "alt": "Game day crowd",
+                "description": "The energy, tailgates, and traditions that make Columbus game days unique."
+            }
+        ]
+    },
+    {
+        "id": "fan-experience",
+        "title": "Fan Experience",
+        "description": "Enjoy tailgates, fan zones, and game-day traditions that make Columbus sports special.",
+        "mainImage": "/Res/Pics/Sports/fans.jpg",
+        "mainImageAlt": "Sports fans in Columbus",
+        "link": "fan-experience",
+        "places": [
+            {
+                "name": "OSU Tailgates",
+                "image": "/Res/Pics/Sports/tailgate.jpg",
+                "alt": "Ohio State tailgate",
+                "description": "Massive pre-game gatherings before Buckeye football games."
+            },
+            {
+                "name": "Crew Supporters Section",
+                "image": "/Res/Pics/Sports/supporters.jpg",
+                "alt": "Crew supporters",
+                "description": "Dedicated fan section known for chants, drums, and nonstop energy."
+            },
+            {
+                "name": "Arena District Bars",
+                "image": "/Res/Pics/Sports/bars.jpg",
+                "alt": "Arena District nightlife",
+                "description": "Popular spots for fans before and after Blue Jackets games."
+            },
+            {
+                "name": "Fan Zones",
+                "image": "/Res/Pics/Sports/fanzone.jpg",
+                "alt": "Sports fan zone",
+                "description": "Interactive areas with games, food, and entertainment on game days."
+            }
+        ]
+    }
+]
