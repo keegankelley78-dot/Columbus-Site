@@ -1,22 +1,30 @@
 const sportsAttractionsContainer = document.getElementById("sportsAttractionsContainer");
 
 async function loadSportsAttractions() {
+    if (!sportsAttractionsContainer) {
+        console.error("Could not find #sportsAttractionsContainer in the HTML.");
+        return;
+    }
+
     try {
         const response = await fetch("/Res/Data/sports-attractions.json");
 
         if (!response.ok) {
-            throw new Error("Could not load sports attractions JSON file.");
+            throw new Error("Could not load sports attractions JSON file. Status: " + response.status);
         }
 
         const attractions = await response.json();
+
         createSportsAttractionCards(attractions);
 
-    } 
-    catch (error) {
+    } catch (error) {
         console.error("Sports attractions loading error:", error);
 
         sportsAttractionsContainer.innerHTML = `
-            <p class="error_message">Could not load sports attractions.</p>
+            <p class="error_message">
+                Could not load sports attractions.<br>
+                ${error.message}
+            </p>
         `;
     }
 }
@@ -24,22 +32,20 @@ async function loadSportsAttractions() {
 function createSportsAttractionCards(attractions) {
     sportsAttractionsContainer.innerHTML = "";
 
-    attractions.forEach(attraction => {
-
+    attractions.forEach(function(attraction) {
         const card = document.createElement("div");
+
         card.classList.add("sports_attractions_card");
 
         card.innerHTML = `
             <div class="sports_attractions_top">
 
                 <div class="sports_attractions_text">
-
-                    <h1 id="${attraction.link}">${attraction.title}</h1>
+                    <h1 id="${attraction.id}">${attraction.title}</h1>
 
                     <p>${attraction.description}</p>
 
-                    <button class="toggle">More Info</button>
-
+                    <button class="toggle" type="button">More Info</button>
                 </div>
 
                 <div class="sports_attractions_main_img">
@@ -60,7 +66,7 @@ function createSportsAttractionCards(attractions) {
 }
 
 function createSportsPlaces(places) {
-    return places.map(place => {
+    return places.map(function(place) {
         return `
             <div class="sports_place_card">
                 <img src="${place.image}" alt="${place.alt}">
@@ -77,19 +83,21 @@ function createSportsPlaces(places) {
 function setupSportsAttractionButtons() {
     const toggles = document.querySelectorAll(".toggle");
 
-    toggles.forEach(toggle => {
-        toggle.addEventListener("click", e => {
+    toggles.forEach(function(toggle) {
+        toggle.addEventListener("click", function(event) {
+            const card = event.target.closest(".sports_attractions_card");
 
-            const card = e.target.closest(".sports_attractions_card");
-
-            if (card) {
-                card.classList.toggle("active");
-
-                toggle.textContent = card.classList.contains("active")
-                    ? "Show Less"
-                    : "More Info";
+            if (!card) {
+                return;
             }
 
+            card.classList.toggle("active");
+
+            if (card.classList.contains("active")) {
+                toggle.textContent = "Show Less";
+            } else {
+                toggle.textContent = "More Info";
+            }
         });
     });
 }
