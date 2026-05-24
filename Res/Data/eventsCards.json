@@ -1,0 +1,218 @@
+[
+    {
+        "id": "attrations",
+        "title": "Attractions",
+        "description": "Explore some of Columbus’ top attractions, including museums, entertainment spots, historic landmarks, and family-friendly destinations across the city.",
+        "mainImage": "/Res/Pics/ttd/DSC_5052.jpg",
+        "mainImageAlt": "Columbus skyline",
+        "link": "attrations",
+        "places": [
+            {
+                "name": "Columbus Zoo and Aquarium",
+                "image": "/Res/Pics/ttd/09500_hr.jpg",
+                "alt": "Columbus Zoo and Aquarium",
+                "description": "A nationally known zoo featuring animal exhibits, aquarium attractions, rides, live shows, and seasonal events for all ages."
+            },
+            {
+                "name": "COSI",
+                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "alt": "COSI science museum",
+                "description": "An interactive science museum with hands-on exhibits, live demonstrations, space displays, and educational activities."
+            },
+            {
+                "name": "National Veterans Memorial and Museum",
+                "image": "/Res/Pics/ttd/DJI_0128.jpg",
+                "alt": "National Veterans Memorial and Museum",
+                "description": "A modern museum honoring veterans through personal stories, historical exhibits, and immersive experiences."
+            },
+            {
+                "name": "Ohio History Center",
+                "image": "/Res/Pics/events/43026032881_34361fd705_o-scaled.jpg",
+                "alt": "Ohio History Center",
+                "description": "A museum exploring Ohio’s history with exhibits, artifacts, and interactive displays covering the state’s past and culture."
+            },
+            {
+                "name": "LEGOLAND Discovery Center Columbus",
+                "image": "/Res/Pics/events/legoland-discovery-center-columbus-09-1100x825.jpg",
+                "alt": "LEGOLAND Discovery Center Columbus",
+                "description": "An indoor LEGO attraction with rides, building zones, play areas, and interactive activities for kids and families."
+            },
+            {
+                "name": "Prototype: The Experimental Museum",
+                "image": "/Res/Pics/events/Prototype+Experimental+Museum_Valentines+Day+Promotion.jpg",
+                "alt": "Prototype Experimental Museum",
+                "description": "An immersive museum featuring creative art, technology exhibits, interactive installations, and experimental media experiences."
+            }
+        ]
+    },
+    {
+        "id": "shopping",
+        "title": "Shopping",
+        "description": "Explore some of the best shopping destinations in Columbus, from outdoor shopping centers to local boutiques and markets.",
+        "mainImage": "/Res/Pics/ttd/30_NorthMarket_Pramik.jpg",
+        "mainImageAlt": "North Market in Columbus",
+        "link": "shopping",
+        "places": [
+            {
+                "name": "Easton Town Center",
+                "image": "/Res/Pics/ttd/09500_hr.jpg",
+                "alt": "Easton Town Center",
+                "description": "A popular outdoor shopping district with major retailers, restaurants, entertainment, and seasonal events on the east side of Columbus."
+            },
+            {
+                "name": "Polaris Fashion Place",
+                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "alt": "Polaris Fashion Place mall",
+                "description": "A large shopping mall in north Columbus featuring fashion stores, dining options, entertainment, and well-known brands."
+            },
+            {
+                "name": "German Village Shops",
+                "image": "/Res/Pics/ttd/Berliner 3.jpg",
+                "alt": "German Village shops",
+                "description": "A historic neighborhood filled with local boutiques, bookstores, coffee shops, restaurants, and brick-lined streets south of downtown."
+            },
+            {
+                "name": "Short North Arts District",
+                "image": "/Res/Pics/ttd/10015_hr.jpg",
+                "alt": "Short North Arts District",
+                "description": "A vibrant district just north of downtown known for local shops, art galleries, restaurants, nightlife, and colorful street murals."
+            }
+        ]
+    },
+    {
+        "id": "outdoors",
+        "title": "Outdoors",
+        "description": "Enjoy parks, trails, riverfront views, and outdoor activities throughout the Columbus area.",
+        "mainImage": "/Res/Pics/ttd/ChildrensGarden1.jpg",
+        "mainImageAlt": "Columbus park and gardens",
+        "link": "outdoors",
+        "places": [
+            {
+                "name": "Scioto Mile",
+                "image": "/Res/Pics/cbus/Experience Columbus July-098.jpg",
+                "alt": "Scioto Mile riverfront",
+                "description": "A scenic downtown riverfront with walking trails, fountains, parks, and skyline views along the Scioto River."
+            },
+            {
+                "name": "Franklin Park Conservatory",
+                "image": "/Res/Pics/ttd//Experience Columbus July 18-69.jpg",
+                "alt": "Franklin Park Conservatory",
+                "description": "A botanical garden and conservatory featuring beautiful plant collections, seasonal exhibits, outdoor gardens, and art displays near downtown."
+            },
+            {
+                "name": "Pickleball Courts",
+                "image": "/Res/Pics/ttd/DSC02743.jpg",
+                "alt": "Pickleball courts in Columbus",
+                "description": "Popular outdoor and indoor pickleball courts around Columbus offering a fun and active way to enjoy the city with friends and family."
+            },
+            {
+                "name": "Scioto Audubon Metro Park",
+                "image": "/Res/Pics/events/SIO_wall_climbing-wall_Wilma_Yoder.jpg",
+                "alt": "Scioto Audubon Metro Park",
+                "description": "A large metro park south of downtown featuring walking trails, climbing walls, river views, playgrounds, and open green space."
+            }
+        ]
+    },
+    {
+        "id": "music",
+        "title": "Music",
+        "description": "Discover live music venues, concerts, festivals, and local entertainment throughout Columbus.",
+        "mainImage": "/Res/Pics/events/PTL_0074_Friko_2025_websize.jpg",
+        "mainImageAlt": "Live music performance in Columbus",
+        "link": "music",
+        "places": [
+            {
+                "name": "KEMBA Live!",
+                "image": "/Res/Pics/events/kemba-live-featured.jpg",
+                "alt": "KEMBA Live concert venue",
+                "description": "A major live music venue near downtown hosting concerts, festivals, and outdoor performances year-round."
+            },
+            {
+                "name": "The Bluestone",
+                "image": "/Res/Pics/events/2u6a9526-1-1024x686.jpg",
+                "alt": "The Bluestone concert venue",
+                "description": "A historic church turned music venue known for concerts, events, and unique live performances near downtown Columbus."
+            },
+            {
+                "name": "Newport Music Hall",
+                "image": "/Res/Pics/events/475532500_18392133001100516_7814558215942854579_n.jpg",
+                "alt": "Newport Music Hall",
+                "description": "One of the country’s longest-running rock clubs featuring live music, touring artists, and local bands near Ohio State."
+            },
+            {
+                "name": "A&R Music Bar",
+                "image": "/Res/Pics/events/medium_03.jpg",
+                "alt": "A&R Music Bar Columbus",
+                "description": "A popular live music venue in the Arena District featuring concerts, local artists, touring bands, and indoor performances."
+            }
+        ]
+    },
+    {
+        "id": "nightlife",
+        "title": "Nightlife",
+        "description": "Experience Columbus nightlife with rooftop bars, live entertainment, restaurants, and late-night spots across the city.",
+        "mainImage": "/Res/Pics/cbus/DJI_0135-HDR-Pano.jpg",
+        "mainImageAlt": "Downtown Columbus at night",
+        "link": "nightlife",
+        "places": [
+            {
+                "name": "Short North Nightlife",
+                "image": "/Res/Pics/events/The-Go-Go.jpg",
+                "alt": "Short North nightlife",
+                "description": "A lively district filled with bars, restaurants, rooftop patios, music venues, and late-night entertainment."
+            },
+            {
+                "name": "Bridge Park",
+                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "alt": "Bridge Park at night",
+                "description": "A modern entertainment district in Dublin with rooftop bars, restaurants, nightlife, and riverfront views."
+            },
+            {
+                "name": "Pins Mechanical Co.",
+                "image": "/Res/Pics/ttd/Berliner 3.jpg",
+                "alt": "Pins Mechanical Co.",
+                "description": "A social nightlife spot featuring duckpin bowling, arcade games, drinks, and outdoor gathering spaces."
+            },
+            {
+                "name": "Arena District",
+                "image": "/Res/Pics/ttd/10015_hr.jpg",
+                "alt": "Arena District Columbus",
+                "description": "A downtown entertainment area with sports venues, bars, restaurants, concerts, and nightlife activities."
+            }
+        ]
+    },
+    {
+        "id": "day-trips",
+        "title": "Day Trip Fun",
+        "description": "Take a short drive from Columbus to explore amusement parks, outdoor adventures, and unique attractions across Ohio.",
+        "mainImage": "/Res/Pics/ttd/Cp/my-first-visit-to-cedar-point-was-some-of-the-best-days-of-v0-durstcn2qa2d1.jpg",
+        "mainImageAlt": "Cedar Point roller coasters",
+        "link": "day-trips",
+        "places": [
+            {
+                "name": "Cedar Point",
+                "image": "/Res/Pics/ttd/09500_hr.jpg",
+                "alt": "Cedar Point amusement park",
+                "description": "A famous amusement park on Lake Erie known for roller coasters, rides, entertainment, and waterfront views."
+            },
+            {
+                "name": "Hocking Hills",
+                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "alt": "Hocking Hills State Park",
+                "description": "A scenic outdoor destination featuring hiking trails, waterfalls, caves, forests, and stunning natural landscapes."
+            },
+            {
+                "name": "Kings Island",
+                "image": "/Res/Pics/ttd/Berliner 3.jpg",
+                "alt": "Kings Island amusement park",
+                "description": "A large theme park near Cincinnati with roller coasters, water attractions, family rides, and live entertainment."
+            },
+            {
+                "name": "Yellow Springs",
+                "image": "/Res/Pics/ttd/10015_hr.jpg",
+                "alt": "Downtown Yellow Springs",
+                "description": "A small artsy town known for local shops, hiking trails, restaurants, parks, and a relaxed atmosphere."
+            }
+        ]
+    }
+]
