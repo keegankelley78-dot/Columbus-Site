@@ -978,9 +978,96 @@ body {
     transition: transform 0.75s ease, opacity 0.35s ease;
 }
 
-.restaurant_info_img:hover img {
+.t_info_img:hover img {
     transform: scale(1.08);
     opacity: 0.75;
+}
+
+/*Restauran menu*/
+
+.restaurants {
+    width: 100%;
+    padding: 3rem 2rem;
+    background: #f5f5f5;
+}
+
+.restaurant_card_container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    gap: 2rem;
+}
+
+.menu_bar {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    min-height: 420px;
+}
+
+.menu_bar h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.filter_btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+
+    border: none;
+    background: transparent;
+    text-align: left;
+
+    font-size: 1rem;
+    cursor: pointer;
+    color: #333;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.filter_btn:hover,
+.filter_btn.active {
+    background: #d92332;
+    color: white;
+}
+
+.restaurant_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.restaurant_card {
+    background: white;
+    border: 1px solid #ccc;
+    min-height: 180px;
+    padding: 1.25rem;
+
+    transition: 0.3s ease;
+}
+
+.restaurant_card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.restaurant_card_content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    color: #222;
+}
+
+.restaurant_card_content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 0.4rem;
 }
 
 /* Drinks Section */
