@@ -1,0 +1,182 @@
+[
+    {
+        "name": "The Junto",
+        "type": "luxury",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/11127-06_LoRes.webp",
+        "description": "A stylish hotel near downtown attractions, the Scioto Mile, restaurants, and entertainment.",
+        "bestFor": "Luxury stays, couples, and downtown exploring",
+        "area": "Downtown",
+        "price": "$$$"
+    },
+    {
+        "name": "Le Méridien Columbus, The Joseph",
+        "type": "luxury",
+        "location": "Short North Arts District",
+        "image": "/Res/Pics/pts/cmhdm-exterior-3582-hor-clsc.webp",
+        "description": "An upscale hotel in the Short North with easy access to art galleries, restaurants, and nightlife.",
+        "bestFor": "Art, food, and upscale trips",
+        "area": "Short North",
+        "price": "$$$"
+    },
+    {
+        "name": "Hilton Columbus Downtown",
+        "type": "downtown",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/J2V46Y4RRFDWHGGGZU7T7EFNIU.JPEG",
+        "description": "A large downtown hotel close to the convention center, restaurants, sports venues, and events.",
+        "bestFor": "Conventions, events, and downtown trips",
+        "area": "Downtown",
+        "price": "$$$"
+    },
+    {
+        "name": "Graduate Columbus",
+        "type": "unique",
+        "location": "Short North",
+        "image": "/Res/Pics/pts/1263766.jpg",
+        "description": "A colorful hotel with a fun Columbus style and a strong location near shops, food, and nightlife.",
+        "bestFor": "Unique stays and weekend trips",
+        "area": "Short North",
+        "price": "$$"
+    },
+    {
+        "name": "Hyatt Regency Columbus",
+        "type": "downtown",
+        "location": "Arena District",
+        "image": "/Res/Pics/pts/hyatt.jpg",
+        "description": "A convenient downtown hotel near Nationwide Arena, the convention center, and restaurants.",
+        "bestFor": "Sports, concerts, and events",
+        "area": "Arena District",
+        "price": "$$"
+    },
+    {
+        "name": "Hotel LeVeque",
+        "type": "luxury",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/hotel-leveque.jpg",
+        "description": "A historic downtown hotel inside one of Columbus’s most recognizable buildings.",
+        "bestFor": "Luxury, history, and downtown views",
+        "area": "Downtown",
+        "price": "$$$"
+    },
+    {
+        "name": "Drury Plaza Hotel Columbus Downtown",
+        "type": "family",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/drury-plaza.jpg",
+        "description": "A comfortable downtown hotel with convenient access to attractions, restaurants, and events.",
+        "bestFor": "Families and easy downtown access",
+        "area": "Downtown",
+        "price": "$$"
+    },
+    {
+        "name": "Canopy by Hilton Columbus Downtown",
+        "type": "downtown",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/canopy.jpg",
+        "description": "A modern downtown hotel close to restaurants, entertainment, and walkable city spots.",
+        "bestFor": "Downtown exploring and short trips",
+        "area": "Downtown",
+        "price": "$$"
+    },
+    {
+        "name": "Moxy Columbus Short North",
+        "type": "unique",
+        "location": "Short North",
+        "image": "/Res/Pics/pts/moxy.jpg",
+        "description": "A trendy hotel with a more casual, modern style near food, shops, and nightlife.",
+        "bestFor": "Young travelers, nightlife, and weekend trips",
+        "area": "Short North",
+        "price": "$$"
+    },
+    {
+        "name": "Hampton Inn & Suites Columbus-Downtown",
+        "type": "budget",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/hampton-downtown.jpg",
+        "description": "A practical hotel option near the convention center and downtown attractions.",
+        "bestFor": "Budget-conscious downtown visitors",
+        "area": "Downtown",
+        "price": "$$"
+    },
+    {
+        "name": "Home2 Suites by Hilton Columbus Downtown",
+        "type": "family",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/home2-suites.jpg",
+        "description": "An extended-stay style hotel with more space and useful amenities for longer visits.",
+        "bestFor": "Families and longer stays",
+        "area": "Downtown",
+        "price": "$$"
+    },
+    {
+        "name": "SpringHill Suites Columbus OSU",
+        "type": "budget",
+        "location": "University District",
+        "image": "/Res/Pics/pts/springhill-osu.jpg",
+        "description": "A good option near Ohio State University with access to campus, hospitals, and local restaurants.",
+        "bestFor": "OSU visits and affordable stays",
+        "area": "University District",
+        "price": "$$"
+    },
+    {
+        "name": "The Blackwell Inn",
+        "type": "near-attractions",
+        "location": "Ohio State University",
+        "image": "/Res/Pics/pts/blackwell.jpg",
+        "description": "A hotel located near Ohio State University, making it useful for campus events and visits.",
+        "bestFor": "OSU games, campus visits, and university events",
+        "area": "University District",
+        "price": "$$"
+    },
+    {
+        "name": "Aloft Columbus Easton",
+        "type": "family",
+        "location": "Easton",
+        "image": "/Res/Pics/pts/aloft-easton.jpg",
+        "description": "A modern hotel near Easton Town Center with shopping, dining, and entertainment nearby.",
+        "bestFor": "Shopping trips and family stays",
+        "area": "Easton",
+        "price": "$$"
+    },
+    {
+        "name": "Hilton Columbus at Easton",
+        "type": "luxury",
+        "location": "Easton",
+        "image": "/Res/Pics/pts/hilton-easton.jpg",
+        "description": "An upscale hotel near Easton Town Center with easy access to shopping and restaurants.",
+        "bestFor": "Shopping, dining, and comfortable stays",
+        "area": "Easton",
+        "price": "$$$"
+    },
+    {
+        "name": "Residence Inn Columbus Downtown",
+        "type": "family",
+        "location": "Downtown Columbus",
+        "image": "/Res/Pics/pts/residence-inn.jpg",
+        "description": "A hotel with larger room options that works well for families and longer visits.",
+        "bestFor": "Families and extended stays",
+        "area": "Downtown",
+        "price": "$$"
+    },
+    {
+        "name": "German Village Guest Stay",
+        "type": "unique",
+        "location": "German Village",
+        "image": "/Res/Pics/pts/german-village.jpg",
+        "description": "A stay option near historic brick streets, local restaurants, coffee shops, and neighborhood charm.",
+        "bestFor": "Historic areas and quieter trips",
+        "area": "German Village",
+        "price": "$$"
+    },
+    {
+        "name": "Budget Stay Near Polaris",
+        "type": "budget",
+        "location": "Polaris",
+        "image": "/Res/Pics/pts/polaris-budget.jpg",
+        "description": "A simple and affordable stay near shopping, restaurants, and highway access.",
+        "bestFor": "Budget trips and shopping visits",
+        "area": "Polaris",
+        "price": "$"
+    }
+]

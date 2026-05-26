@@ -75,32 +75,25 @@
         </div>
     </section>
 
-    <section class="restaurants">
-        <div class="restaurants_container">
-            <div class="restaurants_menu">
-                <div class="restaurants_menu_container">
-                    <button>Expensive</button>
-                    <button>Nice</button>
-                    <button>Cheap</button>
-                </div>
-            </div>
-
-    
-    <section class="restaurants">
-        <div class="restaurant_card_container">
-
-            <aside class="menu_bar">
-                <h2>Menu</h2>
-                <p>Expensive</p>
-                <p>Nice</p>
-                <p>Cheap</p>
-            </aside>
-
-            <div class="restaurant_cards" id="restaurantCards">
-                <!-- JS will add cards here -->
-            </div>
-
+    <section class="restaurant_api_section">
+        <div class="restaurant_api_header">
+            <h1>Find Restaurants in Columbus</h1>
+            <p>Search local food spots, cafés, and restaurants around Columbus, Ohio.</p>
         </div>
+
+        <div class="restaurant_controls">
+            <input 
+                type="text" 
+                id="restaurantSearch" 
+                placeholder="Search restaurants..."
+            >
+
+            <button id="loadRestaurantsBtn">Load Restaurants</button>
+        </div>
+
+        <div id="restaurantStatus" class="restaurant_status"></div>
+
+        <div class="restaurant_cards_container" id="restaurantCardsContainer"></div>
     </section>
 
 
@@ -120,7 +113,29 @@
             </div>
         </div>
     </section>
+
+    <section class="drinks_api_section">
+        <div class="drinks_api_header">
+            <h1>Find Drinks in Columbus</h1>
+            <p>Explore cafés, coffee shops, bars, and drink spots around Columbus, Ohio.</p>
+        </div>
+
+        <div class="drinks_controls">
+            <input 
+                type="text" 
+                id="drinksSearch" 
+                placeholder="Search drinks, cafés, coffee, bars..."
+            >
+
+            <button id="loadDrinksBtn">Load Drink Spots</button>
+        </div>
+
+        <div id="drinksStatus" class="drinks_status"></div>
+
+        <div id="drinksCardsContainer" class="drinks_cards_container"></div>
+    </section>
 <script src="/Js/restaurants.js"></script>
+<script src="/Js/drinks.js"></script>
 </body>
 
 <footer class="footer">

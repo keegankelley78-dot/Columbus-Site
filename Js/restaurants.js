@@ -1,105 +1,96 @@
-const restaurantCards = document.getElementById("restaurantCards");
-const filterButtons = document.querySelectorAll(".filter_btn");
+const restaurantContainer = document.getElementById("restaurantCardsContainer");
+const restaurantStatus = document.getElementById("restaurantStatus");
+const searchInput = document.getElementById("restaurantSearch");
+const loadBtn = document.getElementById("loadRestaurantsBtn");
 
-let allPlaces = [];
+let restaurants = [];
 
-async function loadRestaurants() {
-    restaurantCards.innerHTML = `<p>Loading restaurants...</p>`;
+const restaurantImages = [
+    "/Res/Pics/Restaurants/restaurant-1.jpg",
+    "/Res/Pics/Restaurants/restaurant-2.jpg",
+    "/Res/Pics/Restaurants/restaurant-3.jpg",
+    "/Res/Pics/Restaurants/restaurant-4.jpg"
+];
 
-    const query = `
+async function getRestaurants() {
+    restaurantStatus.textContent = "Loading restaurants...";
+    restaurantContainer.innerHTML = "";
+
+    const apiQuery = `
         [out:json][timeout:25];
-        area["name"="Columbus"]["boundary"="administrative"]->.searchArea;
-        (
-            node["amenity"="restaurant"](area.searchArea);
-            node["amenity"="cafe"](area.searchArea);
-            node["amenity"="fast_food"](area.searchArea);
-        );
-        out body;
+        area["name"="Columbus"]["boundary"="administrative"]->.area;
+        node["amenity"="restaurant"](area.area);
+        out tags 20;
     `;
 
-    const apiURL = "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
-
     try {
-        const response = await fetch(apiURL);
-
-        if (!response.ok) {
-            throw new Error("API request failed.");
-        }
+        const response = await fetch("https://overpass-api.de/api/interpreter", {
+            method: "POST",
+            body: apiQuery
+        });
 
         const data = await response.json();
 
-        allPlaces = data.elements.filter(function(place) {
-            return place.tags && place.tags.name;
-        });
-
-        createRestaurantCards(allPlaces.slice(0, 12));
-
-    } catch (error) {
-        console.error("API error:", error);
-
-        restaurantCards.innerHTML = `
-            <p class="error_message">Could not load restaurant data.</p>
-        `;
-    }
-}
-
-function createRestaurantCards(places) {
-    restaurantCards.innerHTML = "";
-
-    if (places.length === 0) {
-        restaurantCards.innerHTML = `<p>No places found.</p>`;
-        return;
-    }
-
-    places.forEach(function(place) {
-        const tags = place.tags;
-
-        const name = tags.name || "Unknown Restaurant";
-        const type = tags.amenity || "restaurant";
-        const cuisine = tags.cuisine || "Food";
-        const street = tags["addr:street"] || "Address not listed";
-        const houseNumber = tags["addr:housenumber"] || "";
-
-        const card = document.createElement("div");
-        card.classList.add("restaurant_card");
-
-        card.innerHTML = `
-            <div class="restaurant_card_content">
-                <h3>${name}</h3>
-                <p><strong>Type:</strong> ${formatText(type)}</p>
-                <p><strong>Cuisine:</strong> ${formatText(cuisine)}</p>
-                <p><strong>Address:</strong> ${houseNumber} ${street}</p>
-            </div>
-        `;
-
-        restaurantCards.appendChild(card);
-    });
-}
-
-function formatText(text) {
-    return text.replaceAll("_", " ");
-}
-
-filterButtons.forEach(function(button) {
-    button.addEventListener("click", function() {
-        filterButtons.forEach(function(btn) {
-            btn.classList.remove("active");
-        });
-
-        button.classList.add("active");
-
-        const filter = button.dataset.filter;
-
-        if (filter === "all") {
-            createRestaurantCards(allPlaces.slice(0, 12));
-        } else {
-            const filteredPlaces = allPlaces.filter(function(place) {
-                return place.tags.amenity === filter;
+        restaurants = data.elements
+            .filter(place => place.tags.name)
+            .map((place, index) => {
+                return {
+                    name: place.tags.name,
+                    cuisine: place.tags.cuisine || "Restaurant",
+                    address: place.tags["addr:street"] || "Columbus, OH",
+                    website: place.tags.website || "",
+                    image: restaurantImages[index % restaurantImages.length]
+                };
             });
 
-            createRestaurantCards(filteredPlaces.slice(0, 12));
-        }
-    });
-});
+        showRestaurants(restaurants);
+        restaurantStatus.textContent = `Showing ${restaurants.length} restaurants.`;
 
-loadRestaurants();
+    } catch (error) {
+        console.log(error);
+        restaurantStatus.textContent = "Could not load restaurants.";
+    }
+}
+
+function showRestaurants(list) {
+    restaurantContainer.innerHTML = "";
+
+    list.forEach(restaurant => {
+        restaurantContainer.innerHTML += `
+            <div class="restaurant_card">
+                <div class="restaurant_card_img">
+                    <img src="${restaurant.image}" alt="${restaurant.name}">
+                </div>
+
+                <div class="restaurant_card_content">
+                    <span class="restaurant_tag">${restaurant.cuisine}</span>
+                    <h2>${restaurant.name}</h2>
+                    <p>${restaurant.address}</p>
+
+                    ${
+                        restaurant.website
+                        ? `<a href="${restaurant.website}" target="_blank" class="restaurant_card_btn">Visit Website</a>`
+                        : `<p>No website listed</p>`
+                    }
+                </div>
+            </div>
+        `;
+    });
+}
+
+function searchRestaurants() {
+    const searchValue = searchInput.value.toLowerCase();
+
+    const filtered = restaurants.filter(restaurant => {
+        return restaurant.name.toLowerCase().includes(searchValue) ||
+               restaurant.cuisine.toLowerCase().includes(searchValue);
+    });
+
+    showRestaurants(filtered);
+    restaurantStatus.textContent = `Showing ${filtered.length} restaurants.`;
+}
+
+loadBtn.addEventListener("click", getRestaurants);
+searchInput.addEventListener("input", searchRestaurants);
+
+getRestaurants();
