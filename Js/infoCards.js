@@ -58,10 +58,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="text_card">
                         <p class="description_text">${topic.description}</p>
-
-                        <button class="info_button">
-                            ${topic.buttonText}
-                        </button>
+                        <a href="${card.link}"
+                            <button class="info_button" id="${topic.link}">
+                                ${topic.buttonText}
+                            </button>
+                        </a>
                     </div>
                 </div>
 

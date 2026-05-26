@@ -55,25 +55,25 @@
         "places": [
             {
                 "name": "Easton Town Center",
-                "image": "/Res/Pics/ttd/09500_hr.jpg",
+                "image": "/Res/Pics/ttd/Station-Building-Levis-FREEBIRD.jpg",
                 "alt": "Easton Town Center",
                 "description": "A popular outdoor shopping district with major retailers, restaurants, entertainment, and seasonal events on the east side of Columbus."
             },
             {
                 "name": "Polaris Fashion Place",
-                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "image": "/Res/Pics/ttd/20220803Polaris-5451e_71522D07-E6FD-4EAD-816197CDBF625A6C_cfabc9d5-1b57-4144-a707f575f7a7f5e7.jpg",
                 "alt": "Polaris Fashion Place mall",
                 "description": "A large shopping mall in north Columbus featuring fashion stores, dining options, entertainment, and well-known brands."
             },
             {
                 "name": "German Village Shops",
-                "image": "/Res/Pics/ttd/Berliner 3.jpg",
+                "image": "/Res/Pics/cultures/Experience-Columbus-298.jpg",
                 "alt": "German Village shops",
                 "description": "A historic neighborhood filled with local boutiques, bookstores, coffee shops, restaurants, and brick-lined streets south of downtown."
             },
             {
                 "name": "Short North Arts District",
-                "image": "/Res/Pics/ttd/10015_hr.jpg",
+                "image": "/Res/Pics/cultures/Experience Columbus July-152.jpg",
                 "alt": "Short North Arts District",
                 "description": "A vibrant district just north of downtown known for local shops, art galleries, restaurants, nightlife, and colorful street murals."
             }
@@ -163,13 +163,13 @@
             },
             {
                 "name": "Bridge Park",
-                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "image": "/Res/Pics/ttd/348s.jpg",
                 "alt": "Bridge Park at night",
                 "description": "A modern entertainment district in Dublin with rooftop bars, restaurants, nightlife, and riverfront views."
             },
             {
                 "name": "Pins Mechanical Co.",
-                "image": "/Res/Pics/ttd/Berliner 3.jpg",
+                "image": "/Res/Pics/ttd/1756323942164.jpg",
                 "alt": "Pins Mechanical Co.",
                 "description": "A social nightlife spot featuring duckpin bowling, arcade games, drinks, and outdoor gathering spaces."
             },
@@ -191,25 +191,25 @@
         "places": [
             {
                 "name": "Cedar Point",
-                "image": "/Res/Pics/ttd/09500_hr.jpg",
+                "image": "/Res/Pics/ttd/Cp/GatekeepercoasteratCerdarPoint-e300ee12a5ca4431988c5d4806db6b23.jpg",
                 "alt": "Cedar Point amusement park",
                 "description": "A famous amusement park on Lake Erie known for roller coasters, rides, entertainment, and waterfront views."
             },
             {
                 "name": "Hocking Hills",
-                "image": "/Res/Pics/ttd/Experience Columbus July 18-22.jpg",
+                "image": "/Res/Pics/ttd/hocking-hills.jpg",
                 "alt": "Hocking Hills State Park",
                 "description": "A scenic outdoor destination featuring hiking trails, waterfalls, caves, forests, and stunning natural landscapes."
             },
             {
                 "name": "Kings Island",
-                "image": "/Res/Pics/ttd/Berliner 3.jpg",
+                "image": "/Res/Pics/ttd/Kings-Island-Packages.jpeg",
                 "alt": "Kings Island amusement park",
                 "description": "A large theme park near Cincinnati with roller coasters, water attractions, family rides, and live entertainment."
             },
             {
                 "name": "Yellow Springs",
-                "image": "/Res/Pics/ttd/10015_hr.jpg",
+                "image": "/Res/Pics/ttd/Downpic.cc-image412894688-1536x1023.jpg",
                 "alt": "Downtown Yellow Springs",
                 "description": "A small artsy town known for local shops, hiking trails, restaurants, parks, and a relaxed atmosphere."
             }

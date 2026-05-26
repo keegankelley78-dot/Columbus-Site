@@ -4,7 +4,7 @@
         "description": "Explore Columbus sports teams including professional, college, and local clubs.",
         "buttonText": "View Teams",
         "link": "#teams",
-        "image": "/Res/Pics/Sports/teams.jpg"
+        "image": "/Res/Pics/Sports/cbj/Bowl-032114-14.jpg"
     },
     {
         "title": "Stadiums",
@@ -32,7 +32,7 @@
         "description": "Explore the traditions, rivalries, and identity that define Columbus sports and its fan experience.",
         "buttonText": "Explore Culture",
         "link": "#sports-culture",
-        "image": "/Res/Pics/Sports/culture.jpg"
+        "image": "/Res/Pics/Sports/clippers/LGBTQ - 2019-508.jpg"
     },
     {
         "title": "Fan Experiences",
