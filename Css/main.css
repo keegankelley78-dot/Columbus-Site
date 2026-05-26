@@ -1,13 +1,44 @@
 :root {
+    /* Main Colors */
     --clr-navy: #002855;
     --clr-navy-dark: #001b3a;
     --clr-sky-blue: #4da3ff;
     --clr-light-blue: #eaf4ff;
+
     --clr-white: #ffffff;
-    --clr-gold: #f4b400;
+    --clr-off-white: #f5f7fa;
+    --clr-soft-gray: #f5f5f5;
     --clr-gray: #555555;
     --clr-dark: #1f2933;
+    --clr-black: #000000;
 
+    --clr-gold: #f4b400;
+    --clr-red: #b21f2d;
+    --clr-red-dark: #8f1824;
+    --clr-red-soft: #f3d7d9;
+
+    --clr-border-light: #e5ddd3;
+    --clr-input-border: #ded6cc;
+    --clr-light-gray: #e6e6e6;
+    --clr-extra-light-gray: #f1f1f1;
+    --clr-charcoal: #231f20;
+    --clr-navy-mid: #071f3f;
+    --clr-pale-blue-gray: #e8edf5;
+    --clr-near-white: #f2f2f2;
+    --clr-error: #9b1c1c;
+
+    /* Shadows */
+    --shadow-small: 0 6px 18px rgba(0, 40, 85, 0.1);
+    --shadow-medium: 0 10px 25px rgba(0, 40, 85, 0.18);
+    --shadow-large: 0 16px 35px rgba(0, 40, 85, 0.18);
+    --shadow-dark: 0 12px 30px rgba(0, 0, 0, 0.25);
+
+    /* Radius */
+    --radius-small: 0.5rem;
+    --radius-medium: 1rem;
+    --radius-large: 1.5rem;
+
+    /* Fonts */
     --font-main: "Segoe UI", Arial, sans-serif;
 
     --fs-small: 1rem;
@@ -22,13 +53,35 @@
     --fw-bold: 700;
 
     --transition: all 0.3s ease-in-out;
+    --max-width: 1200px;
 }
 
-/* GLOBAL */
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--clr-white);
     color: var(--clr-dark);
+    font-family: var(--font-main);
+    overflow-x: hidden;
 }
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
 
 /* HERO SECTION */
 .hero { 
@@ -53,7 +106,7 @@ body {
 
 .hero_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 2rem;
     text-align: center;
 }
@@ -247,7 +300,108 @@ body {
     transform: translateY(-2px);
 }
 
+/* Transportation & Travel Section */
+.travel {
+    width: 100%;
+    padding: 5rem 2rem;
+    background: var(--clr-off-white);
+}
 
+.travel_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.travel_header {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 3rem auto;
+}
+
+.section_label {
+    color: var(--clr-red);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.travel_header h2 {
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    color: var(--clr-navy);
+    margin-bottom: 1rem;
+}
+
+.travel_header p {
+    color: var(--clr-gray);
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.travel_cards_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.travel_card {
+    background: var(--clr-white);
+    padding: 2rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.travel_card:hover {
+    transform: translateY(-8px);
+    border-color: var(--clr-red);
+}
+
+.travel_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--clr-light-red);
+    color: var(--clr-red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.travel_card h3 {
+    color: var(--clr-navy);
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.travel_card p {
+    color: var(--clr-gray);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex: 1;
+}
+
+.travel_btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--clr-red);
+    color: var(--clr-white);
+    padding: 0.75rem 1.2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.travel_btn:hover {
+    background: var(--clr-navy);
+}
 
 /* THINGS TO DO STYLING SECTION********************************************************************************************/
 
@@ -273,7 +427,7 @@ body {
 
 .ttd_hero_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 2rem;
     text-align: center;
 }
@@ -430,12 +584,12 @@ body {
 .attrations {
     width: 100%;
     padding: 5rem 2rem;
-    background-color: #ffffff;
+    background-color: var(--clr-white);
 }
 
 .attrations_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     display: flex;
@@ -483,7 +637,7 @@ body {
 .attrations_text p {
     font-size: 1.05rem;
     line-height: 1.6;
-    color: #f5f7fa;
+    color: var(--clr-off-white);
     margin-bottom: 1.5rem;
 }
 
@@ -491,8 +645,8 @@ body {
     width: fit-content;
     padding: 0.8rem 1.4rem;
 
-    background-color: #ba1f33;
-    color: white;
+    background-color: var(--clr-red);
+    color: var(--clr-white);
 
     border: none;
     border-radius: 8px;
@@ -505,7 +659,7 @@ body {
 }
 
 .toggle:hover {
-    background-color: #8f1827;
+    background-color: var(--clr-red-dark);
     transform: translateY(-2px);
 }
 
@@ -541,7 +695,7 @@ body {
     display: flex;
     gap: 1rem;
 
-    background-color: white;
+    background-color: var(--clr-white);
     border-radius: 14px;
     overflow: hidden;
 
@@ -561,13 +715,13 @@ body {
 
 .place_text h3 {
     font-size: 1.25rem;
-    color: #002855;
+    color: var(--clr-navy);
     margin-bottom: 0.5rem;
 }
 
 .place_text p {
     font-size: 0.95rem;
-    color: #444;
+    color: var(--clr-gray);
     line-height: 1.5;
 }
 
@@ -595,7 +749,7 @@ body {
 
 .sports_hero_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 2rem;
     text-align: center;
 }
@@ -628,11 +782,11 @@ body {
 .sports_header {
     width: 100%;
     padding: 5rem 2rem;
-    background: #f5f5f5;
+    background: var(--clr-soft-gray);
 }
 
 .sports_header_container {
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     display: flex;
@@ -648,14 +802,14 @@ body {
 .sports_header_text h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #222;
+    color: var(--clr-dark);
 }
 
 .sports_header_text p {
     max-width: 500px;
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #444;
+    color: var(--clr-gray);
 }
 
 /* Cards Container */
@@ -675,7 +829,7 @@ body {
     border-radius: 1.5rem;
     overflow: hidden;
 
-    background: #000;
+    background: var(--clr-black);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 
     cursor: pointer;
@@ -708,7 +862,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
-    color: white;
+    color: var(--clr-white);
 
     background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
 }
@@ -718,7 +872,7 @@ body {
 .top_teams {
     width: 100%;
     padding: 5rem 2rem;
-    background-color: #ffffff;
+    background-color: var(--clr-white);
 }
 
 .top_teams_header {
@@ -735,7 +889,7 @@ body {
 
 .top_teams_header p {
     font-size: 1.1rem;
-    color: #444;
+    color: var(--clr-gray);
     line-height: 1.6;
 }
 
@@ -743,7 +897,7 @@ body {
 
 .top_teams_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     display: grid;
@@ -762,7 +916,7 @@ body {
     overflow: hidden;
     cursor: pointer;
 
-    background-color: #000;
+    background-color: var(--clr-black);
     box-shadow: 0 10px 25px rgba(0, 40, 85, 0.18);
 
     transition: transform 0.35s ease, box-shadow 0.35s ease;
@@ -842,7 +996,7 @@ body {
 }
 
 .top_team_more li {
-    color: #f5f7fa;
+    color: var(--clr-off-white);
     font-size: 0.95rem;
     line-height: 1.6;
     margin-bottom: 0.35rem;
@@ -1035,12 +1189,12 @@ body {
 .sports_attractions {
     width: 100%;
     padding: 5rem 2rem;
-    background-color: #ffffff;
+    background-color: var(--clr-white);
 }
 
 .sports_attractions_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     display: flex;
@@ -1088,7 +1242,7 @@ body {
 .sports_attractions_text p {
     font-size: 1.05rem;
     line-height: 1.6;
-    color: #f5f7fa;
+    color: var(--clr-off-white);
     margin-bottom: 1.5rem;
 }
 
@@ -1096,8 +1250,8 @@ body {
     width: fit-content;
     padding: 0.8rem 1.4rem;
 
-    background-color: #ba1f33;
-    color: white;
+    background-color: var(--clr-red);
+    color: var(--clr-white);
 
     border: none;
     border-radius: 8px;
@@ -1110,7 +1264,7 @@ body {
 }
 
 .toggle:hover {
-    background-color: #8f1827;
+    background-color: var(--clr-red-dark);
     transform: translateY(-2px);
 }
 
@@ -1148,7 +1302,7 @@ body {
     display: flex;
     gap: 1rem;
 
-    background-color: white;
+    background-color: var(--clr-white);
     border-radius: 14px;
     overflow: hidden;
 
@@ -1168,68 +1322,16 @@ body {
 
 .sports_place_text h3 {
     font-size: 1.25rem;
-    color: #002855;
+    color: var(--clr-navy);
     margin-bottom: 0.5rem;
 }
 
 .sports_place_text p {
     font-size: 0.95rem;
-    color: #444;
+    color: var(--clr-gray);
     line-height: 1.5;
 }
 
-/*Events Styling sections*********************************************************************************/
-
-.events_hero { 
-    min-height: 75vh;
-    background-image: url("/Res//Pics/food");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.events_hero_overlay {
-    min-height: 75vh;
-    background: linear-gradient(
-    rgba(0, 40, 85, 0.05),
-    rgba(0, 27, 58, 0.8)
-    );
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.events_hero_container {
-    width: 100%;
-    max-width: 1200px;
-    padding: 2rem;
-    text-align: center;
-}
-
-.events_hero_text_card {
-    display: inline-block;
-    padding: 2rem 3rem;
-
-    border: 3px solid var(--clr-gold);
-    border-radius: 1.5rem;
-
-    background: rgba(0, 40, 85, 0.35);
-    backdrop-filter: blur(1.75px);
-}
-.events_hero_text h1 {
-    color: var(--clr-white);
-    font-size: var(--fs-xlarge);
-    font-weight: var(--fw-bold);
-    letter-spacing: 2px;
-    margin-bottom: 1rem;
-}
-
-.events_hero_text p {
-    color: var(--clr-light-blue);
-    font-size: var(--fs-large);
-    font-weight: var(--fw-medium);
-}
 /* Events Hero *********************************************************************************/
 
 .events_hero { 
@@ -1254,7 +1356,7 @@ body {
 
 .events_hero_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 2rem;
     text-align: center;
 }
@@ -1293,7 +1395,7 @@ body {
 
 .event_header_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     display: flex;
@@ -1347,7 +1449,7 @@ body {
 .events {
     width: 100%;
     padding: 5rem 2rem;
-    background-color: #f5f7fa;
+    background-color: var(--clr-off-white);
 }
 
 .events_cards_header {
@@ -1364,14 +1466,14 @@ body {
 }
 
 .events_cards_header p {
-    color: #444;
+    color: var(--clr-gray);
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
 .events_cards_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     display: flex;
@@ -1420,7 +1522,7 @@ body {
 .events_text p {
     font-size: 1.05rem;
     line-height: 1.6;
-    color: #f5f7fa;
+    color: var(--clr-off-white);
     margin-bottom: 1.5rem;
 }
 
@@ -1428,8 +1530,8 @@ body {
     width: fit-content;
     padding: 0.8rem 1.4rem;
 
-    background-color: #ba1f33;
-    color: white;
+    background-color: var(--clr-red);
+    color: var(--clr-white);
 
     border: none;
     border-radius: 8px;
@@ -1442,7 +1544,7 @@ body {
 }
 
 .toggle:hover {
-    background-color: #8f1827;
+    background-color: var(--clr-red-dark);
     transform: translateY(-2px);
 }
 
@@ -1477,7 +1579,7 @@ body {
     display: flex;
     gap: 1rem;
 
-    background-color: white;
+    background-color: var(--clr-white);
     border-radius: 14px;
     overflow: hidden;
 
@@ -1497,13 +1599,13 @@ body {
 
 .place_text h3 {
     font-size: 1.25rem;
-    color: #002855;
+    color: var(--clr-navy);
     margin-bottom: 0.5rem;
 }
 
 .place_text p {
     font-size: 0.95rem;
-    color: #444;
+    color: var(--clr-gray);
     line-height: 1.5;
 }
 
@@ -1531,7 +1633,7 @@ body {
 
 .culture_hero_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 2rem;
     text-align: center;
 }
@@ -1576,14 +1678,14 @@ body {
 
 .culture_intro_container h1 {
     font-size: 2.8rem;
-    color: var(--clr-navy_Blue);
+    color: var(--clr-navy);
     margin-bottom: 1rem;
 }
 
 .culture_intro_container p {
     font-size: 1.15rem;
     line-height: 1.8;
-    color: var(--clr-darkgray);
+    color: var(--clr-dark);
 }
 
 
@@ -1592,7 +1694,7 @@ body {
 .culture_cards_section {
     width: 100%;
     padding: 4rem 2rem 5rem;
-    background: #f4f6f8;
+    background: var(--clr-off-white);
 }
 
 .culture_cards_header {
@@ -1603,17 +1705,17 @@ body {
 
 .culture_cards_header h2 {
     font-size: 2.5rem;
-    color: var(--clr-navy_Blue);
+    color: var(--clr-navy);
     margin-bottom: 0.75rem;
 }
 
 .culture_cards_header p {
     font-size: 1.1rem;
-    color: var(--clr-darkgray);
+    color: var(--clr-dark);
 }
 
 .culture_cards_container {
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1653,7 +1755,7 @@ body {
 .culture_card_text p {
     font-size: 1rem;
     line-height: 1.6;
-    color: var(--clr-darkgray);
+    color: var(--clr-dark);
 }
 
 /*Food Styling section*********************************************************************************************************/
@@ -1681,7 +1783,7 @@ body {
 
 .restaurants_hero_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 2rem;
     text-align: center;
 }
@@ -1716,11 +1818,11 @@ body {
 .restaurant_info {
     width: 100%;
     padding: 5rem 2rem;
-    background: #f5f5f5;
+    background: var(--clr-soft-gray);
 }
 
 .restaurant_info_container {
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     display: flex;
@@ -1738,14 +1840,14 @@ body {
 .restaurant_info_text h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #222;
+    color: var(--clr-dark);
 }
 
 .restaurant_info_text p {
     max-width: 550px;
     font-size: 1.1rem;
     line-height: 1.7;
-    color: #444;
+    color: var(--clr-gray);
 }
 
 .restaurant_info_img_container {
@@ -1765,7 +1867,7 @@ body {
     border-radius: 1.5rem;
     overflow: hidden;
 
-    background: #000;
+    background: var(--clr-black);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 
     cursor: pointer;
@@ -1779,7 +1881,7 @@ body {
     transition: transform 0.75s ease, opacity 0.35s ease;
 }
 
-.t_info_img:hover img {
+.restaurant_info_img:hover img {
     transform: scale(1.08);
     opacity: 0.75;
 }
@@ -1793,7 +1895,7 @@ body {
 .restaurant_api_section {
     width: 100%;
     padding: 5rem 6%;
-    background: #f8f4ef;
+    background: var(--clr-off-white);
 }
 
 .restaurant_api_header {
@@ -1804,13 +1906,13 @@ body {
 
 .restaurant_api_header h1 {
     font-size: clamp(2rem, 4vw, 3.4rem);
-    color: #b21f2d;
+    color: var(--clr-red);
     margin-bottom: 1rem;
 }
 
 .restaurant_api_header p {
     font-size: 1.1rem;
-    color: #1f2933;
+    color: var(--clr-dark);
     line-height: 1.7;
 }
 
@@ -1825,24 +1927,24 @@ body {
 .restaurant_controls input {
     flex: 1;
     padding: 1rem 1.2rem;
-    border: 2px solid #ded6cc;
+    border: 2px solid var(--clr-input-border);
     border-radius: 0.9rem;
     font-size: 1rem;
     outline: none;
-    background: #fff;
-    color: #1f2933;
+    background: var(--clr-white);
+    color: var(--clr-dark);
 }
 
 .restaurant_controls input:focus {
-    border-color: #b21f2d;
+    border-color: var(--clr-red);
 }
 
 .restaurant_controls button {
     padding: 1rem 1.5rem;
     border: none;
     border-radius: 0.9rem;
-    background: #b21f2d;
-    color: #fff;
+    background: var(--clr-red);
+    color: var(--clr-white);
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
@@ -1850,7 +1952,7 @@ body {
 }
 
 .restaurant_controls button:hover {
-    background: #8f1824;
+    background: var(--clr-red-dark);
     transform: translateY(-2px);
 }
 
@@ -1858,7 +1960,7 @@ body {
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #1f2933;
+    color: var(--clr-dark);
 }
 
 .restaurant_cards_container {
@@ -1871,10 +1973,10 @@ body {
 }
 
 .restaurant_card {
-    background: #fff;
+    background: var(--clr-white);
     border-radius: 1.2rem;
     overflow: hidden;
-    border: 1px solid #e5ddd3;
+    border: 1px solid var(--clr-border-light);
     box-shadow: 0 10px 25px rgba(31, 41, 51, 0.08);
     transition: all 0.3s ease;
 }
@@ -1888,7 +1990,7 @@ body {
     width: 100%;
     height: 190px;
     overflow: hidden;
-    background: #b21f2d;
+    background: var(--clr-red);
 }
 
 .restaurant_card_img img {
@@ -1903,7 +2005,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: var(--clr-white);
     font-size: 3rem;
 }
 
@@ -1913,13 +2015,13 @@ body {
 
 .restaurant_card_content h2 {
     font-size: 1.35rem;
-    color: #1f2933;
+    color: var(--clr-dark);
     margin: 0.8rem 0;
 }
 
 .restaurant_card_content p {
     font-size: 0.95rem;
-    color: #4b5563;
+    color: var(--clr-gray);
     line-height: 1.6;
 }
 
@@ -1927,8 +2029,8 @@ body {
     display: inline-block;
     padding: 0.35rem 0.8rem;
     border-radius: 999px;
-    background: #f3d7d9;
-    color: #8f1824;
+    background: var(--clr-red-soft);
+    color: var(--clr-red-dark);
     font-size: 0.8rem;
     font-weight: 800;
 }
@@ -1936,7 +2038,7 @@ body {
 .restaurant_card_btn {
     display: inline-block;
     margin-top: 1rem;
-    color: #b21f2d;
+    color: var(--clr-red);
     font-weight: 800;
     text-decoration: none;
 }
@@ -1955,12 +2057,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: #f5f5f5;
+    background: var(--clr-soft-gray);
 }
 
 .drinks_description_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
 
     display: flex;
     flex-direction: row;
@@ -2023,8 +2125,8 @@ body {
     border: 2px solid var(--clr-white);
     border-radius: 0.8rem;
 
-    color: #e6e6e6;
-    background: var(--clr-navy_Blue);
+    color: var(--clr-light-gray);
+    background: var(--clr-navy);
 
     font-weight: bold;
     cursor: pointer;
@@ -2034,9 +2136,9 @@ body {
 
 .drinks-btn:hover {
     transform: translateY(-2px);
-    background: #e6e6e6;
-    color: #231f20;
-    border-color: var(--clr-navy_Blue);
+    background: var(--clr-light-gray);
+    color: var(--clr-charcoal);
+    border-color: var(--clr-navy);
 }
 
 .drinks_img_container {
@@ -2071,7 +2173,7 @@ body {
 .drinks_api_section {
     width: 100%;
     padding: 5rem 6%;
-    background: #f8f4ef;
+    background: var(--clr-off-white);
 }
 
 .drinks_api_header {
@@ -2082,13 +2184,13 @@ body {
 
 .drinks_api_header h1 {
     font-size: clamp(2rem, 4vw, 3.4rem);
-    color: #b21f2d;
+    color: var(--clr-red);
     margin-bottom: 1rem;
 }
 
 .drinks_api_header p {
     font-size: 1.1rem;
-    color: #1f2933;
+    color: var(--clr-dark);
     line-height: 1.7;
 }
 
@@ -2103,24 +2205,24 @@ body {
 .drinks_controls input {
     flex: 1;
     padding: 1rem 1.2rem;
-    border: 2px solid #ded6cc;
+    border: 2px solid var(--clr-input-border);
     border-radius: 0.9rem;
     font-size: 1rem;
     outline: none;
-    background: #fff;
-    color: #1f2933;
+    background: var(--clr-white);
+    color: var(--clr-dark);
 }
 
 .drinks_controls input:focus {
-    border-color: #b21f2d;
+    border-color: var(--clr-red);
 }
 
 .drinks_controls button {
     padding: 1rem 1.5rem;
     border: none;
     border-radius: 0.9rem;
-    background: #b21f2d;
-    color: #fff;
+    background: var(--clr-red);
+    color: var(--clr-white);
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
@@ -2128,7 +2230,7 @@ body {
 }
 
 .drinks_controls button:hover {
-    background: #8f1824;
+    background: var(--clr-red-dark);
     transform: translateY(-2px);
 }
 
@@ -2136,7 +2238,7 @@ body {
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #1f2933;
+    color: var(--clr-dark);
 }
 
 .drinks_cards_container {
@@ -2149,10 +2251,10 @@ body {
 }
 
 .drinks_card {
-    background: #fff;
+    background: var(--clr-white);
     border-radius: 1.2rem;
     overflow: hidden;
-    border: 1px solid #e5ddd3;
+    border: 1px solid var(--clr-border-light);
     box-shadow: 0 10px 25px rgba(31, 41, 51, 0.08);
     transition: all 0.3s ease;
 }
@@ -2166,7 +2268,7 @@ body {
     width: 100%;
     height: 190px;
     overflow: hidden;
-    background: #b21f2d;
+    background: var(--clr-red);
 }
 
 .drinks_card_img img {
@@ -2185,7 +2287,7 @@ body {
 
 .drinks_card_img.no_img::after {
     content: "☕";
-    color: #fff;
+    color: var(--clr-white);
     font-size: 3rem;
 }
 
@@ -2195,13 +2297,13 @@ body {
 
 .drinks_card_content h2 {
     font-size: 1.35rem;
-    color: #1f2933;
+    color: var(--clr-dark);
     margin: 0.8rem 0;
 }
 
 .drinks_card_content p {
     font-size: 0.95rem;
-    color: #4b5563;
+    color: var(--clr-gray);
     line-height: 1.6;
 }
 
@@ -2209,8 +2311,8 @@ body {
     display: inline-block;
     padding: 0.35rem 0.8rem;
     border-radius: 999px;
-    background: #f3d7d9;
-    color: #8f1824;
+    background: var(--clr-red-soft);
+    color: var(--clr-red-dark);
     font-size: 0.8rem;
     font-weight: 800;
 }
@@ -2218,7 +2320,7 @@ body {
 .drinks_card_btn {
     display: inline-block;
     margin-top: 1rem;
-    color: #b21f2d;
+    color: var(--clr-red);
     font-weight: 800;
     text-decoration: none;
 }
@@ -2240,7 +2342,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
-    color: white;
+    color: var(--clr-white);
 
     background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
 }
@@ -2269,7 +2371,7 @@ body {
 
 .pts_hero_container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 2rem;
     text-align: center;
 }
@@ -2304,7 +2406,7 @@ body {
 .pts_header {
     width: 100%;
     padding: 5rem 2rem;
-    background: #f5f5f5;
+    background: var(--clr-soft-gray);
 }
 
 .pts_header_container {
@@ -2333,7 +2435,7 @@ body {
 
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #444;
+    color: var(--clr-gray);
 }
 
 /* Cards Container */
@@ -2357,7 +2459,7 @@ body {
     border-radius: 1.5rem;
     overflow: hidden;
 
-    background: #000;
+    background: var(--clr-black);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
     perspective: 1000px;
 
@@ -2465,7 +2567,7 @@ body {
     background: linear-gradient(
         160deg,
         var(--clr-navy-dark),
-        #071f3f
+        var(--clr-navy-mid)
     );
 
     color: var(--clr-white);
@@ -2529,7 +2631,7 @@ body {
 }
 
 .back_description {
-    color: #e8edf5;
+    color: var(--clr-pale-blue-gray);
     font-size: 0.86rem;
     line-height: 1.4;
 }
@@ -2576,7 +2678,7 @@ body {
 }
 
 .back_list_box li {
-    color: #f2f2f2;
+    color: var(--clr-near-white);
     font-size: 0.76rem;
     line-height: 1.28;
     margin-bottom: 0.22rem;
@@ -2617,7 +2719,7 @@ body {
 .pts_stay_finder {
     width: 100%;
     padding: 5rem 2rem;
-    background: #f5f5f5;
+    background: var(--clr-soft-gray);
 }
 
 .pts_stay_finder_container {
@@ -2660,7 +2762,7 @@ body {
     border: 2px solid transparent;
     border-radius: 0.8rem;
 
-    background: #f1f1f1;
+    background: var(--clr-extra-light-gray);
     color: var(--clr-navy-dark);
 
     font-size: 1rem;
@@ -2696,7 +2798,7 @@ body {
 
 .pts_cards_header p {
     max-width: 650px;
-    color: #444;
+    color: var(--clr-gray);
     font-size: 1.1rem;
     line-height: 1.6;
 }
@@ -2757,7 +2859,7 @@ body {
 }
 
 .pts_location {
-    color: #555;
+    color: var(--clr-gray);
     font-size: 0.95rem;
     margin-bottom: 0.8rem;
 }
@@ -2768,7 +2870,7 @@ body {
 }
 
 .pts_description {
-    color: #444;
+    color: var(--clr-gray);
     line-height: 1.5;
     margin-bottom: 1rem;
 }
@@ -2779,15 +2881,101 @@ body {
 }
 
 .pts_error {
-    color: #9b1c1c;
+    color: var(--clr-error);
     font-weight: 700;
     font-size: 1.2rem;
 }
 
 
 /* RESPONSIVE */
+
+
+
+
+
+/* Mobile */
+
+
+
+
+
+
+/* Mobile *********************************************************************************/
+
+
+/* Mobile ********************************************************/
+
+
+
+
+
+
+
+
+
+/* Mobile */
+
+/* =========================================================
+   RESPONSIVE STYLES - MERGED BY BREAKPOINT
+========================================================= */
+
+@media screen and (max-width: 1100px) {
+.pts_header_cards_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pts_header_card {
+        height: 32rem;
+    }
+
+.pts_header_cards_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pts_header_card {
+        height: 41rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+.top_teams_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .top_teams_container.has_active .top_team_card.active {
+        grid-template-columns: 1fr;
+    }
+
+    .top_team_card.active .top_team_img {
+        min-height: 24rem;
+    }
+
+    .top_team_card.active .top_team_img img {
+        min-height: 24rem;
+    }
+
+    .top_team_card.active .top_team_content {
+        padding: 2rem;
+    }
+
+.pts_stay_finder_container {
+        grid-template-columns: 1fr;
+    }
+
+    .pts_menu_bar {
+        position: static;
+    }
+
+    .pts_cards_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .travel_cards_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media screen and (max-width: 900px) {
-    .info_cards {
+.info_cards {
         grid-template-columns: 1fr;
         text-align: center;
     }
@@ -2819,10 +3007,61 @@ body {
     .ttd_subjects_card_container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+.events_hero_text_card {
+        padding: 1.5rem 2rem;
+    }
+
+    .events_hero_text h1 {
+        font-size: 3rem;
+    }
+
+    .events_hero_text p {
+        font-size: 1.3rem;
+    }
+
+    .event_header_container {
+        flex-direction: column;
+    }
+
+    .event_header_img img {
+        height: 300px;
+    }
+
+    .event_header_text {
+        min-height: auto;
+        text-align: center;
+    }
+
+    .events_top {
+        flex-direction: column;
+    }
+
+    .events_card.active .events_drop_down {
+        grid-template-columns: 1fr;
+    }
+
+    .place_card {
+        flex-direction: column;
+    }
+
+    .place_card img {
+        width: 100%;
+        height: 200px;
+    }
+
+.culture_cards_container {
+        grid-template-columns: 1fr;
+    }
+
+    .culture_intro_container h1,
+    .culture_cards_header h2 {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 850px) {
-    .info_card,
+.info_card,
     .info_card.reverse {
         grid-template-columns: 1fr;
     }
@@ -2842,76 +3081,29 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
-    .hero_text_container h1 {
-        font-size: 3rem;
+@media screen and (max-width: 700px) {
+.restaurant_api_section {
+        padding: 4rem 5%;
     }
 
-    .hero_text_container p {
-        font-size: 1.3rem;
+    .restaurant_controls {
+        flex-direction: column;
     }
-
-    .info_cards {
-        padding: 3rem 1rem;
-    }
-
-    .title_text {
-        font-size: 2.2rem;
-    }
-
-    .description_text {
-        font-size: 1rem;
-    }
-
-
-
-        .sports_header {
-        padding: 3rem 1rem;
-    }
-
-    .sports_header_text h1 {
-        font-size: 2.3rem;
-    }
-
-    .sports_header_cards_container {
-        grid-template-columns: 1fr;
-    }
-
-    .sports_header_card {
-        max-width: 350px;
+    .restaurant_controls button {
         width: 100%;
-        margin: 0 auto;
-    }
-    .ttd_subjects_card_container {
-        grid-template-columns: 1fr;
-    }
-}
-/* Mobile */
-
-@media screen and (max-width: 1000px) {
-    .top_teams_container {
-        grid-template-columns: repeat(2, 1fr);
     }
 
-    .top_teams_container.has_active .top_team_card.active {
-        grid-template-columns: 1fr;
+.drinks_api_section {
+        padding: 4rem 5%;
     }
 
-    .top_team_card.active .top_team_img {
-        min-height: 24rem;
-    }
-
-    .top_team_card.active .top_team_img img {
-        min-height: 24rem;
-    }
-
-    .top_team_card.active .top_team_content {
-        padding: 2rem;
+    .drinks_controls {
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .top_teams {
+.top_teams {
         padding: 4rem 1rem;
     }
 
@@ -2954,101 +3146,8 @@ body {
     .top_teams_header h1 {
         font-size: 2.25rem;
     }
-}
-@media screen and (max-width: 700px) {
-    .restaurant_api_section {
-        padding: 4rem 5%;
-    }
 
-    .restaurant_controls {
-        flex-direction: column;
-    }
-    .restaurant_controls button {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 700px) {
-    .drinks_api_section {
-        padding: 4rem 5%;
-    }
-
-    .drinks_controls {
-        flex-direction: column;
-    }
-}
-/* Mobile *********************************************************************************/
-
-@media screen and (max-width: 900px) {
-    .events_hero_text_card {
-        padding: 1.5rem 2rem;
-    }
-
-    .events_hero_text h1 {
-        font-size: 3rem;
-    }
-
-    .events_hero_text p {
-        font-size: 1.3rem;
-    }
-
-    .event_header_container {
-        flex-direction: column;
-    }
-
-    .event_header_img img {
-        height: 300px;
-    }
-
-    .event_header_text {
-        min-height: auto;
-        text-align: center;
-    }
-
-    .events_top {
-        flex-direction: column;
-    }
-
-    .events_card.active .events_drop_down {
-        grid-template-columns: 1fr;
-    }
-
-    .place_card {
-        flex-direction: column;
-    }
-
-    .place_card img {
-        width: 100%;
-        height: 200px;
-    }
-}
-/* Mobile ********************************************************/
-
-@media screen and (max-width: 900px) {
-    .culture_cards_container {
-        grid-template-columns: 1fr;
-    }
-
-    .culture_intro_container h1,
-    .culture_cards_header h2 {
-        font-size: 2rem;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .pts_stay_finder_container {
-        grid-template-columns: 1fr;
-    }
-
-    .pts_menu_bar {
-        position: static;
-    }
-
-    .pts_cards_container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .pts_stay_finder {
+.pts_stay_finder {
         padding: 3rem 1rem;
     }
 
@@ -3059,19 +3158,8 @@ body {
     .pts_cards_header h1 {
         font-size: 2.2rem;
     }
-}
-@media screen and (max-width: 1100px) {
-    .pts_header_cards_container {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
-    .pts_header_card {
-        height: 32rem;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .pts_header {
+.pts_header {
         padding: 3rem 1rem;
     }
 
@@ -3086,22 +3174,8 @@ body {
     .pts_header_card {
         height: 30rem;
     }
-}
 
-/* Mobile */
-
-@media screen and (max-width: 1100px) {
-    .pts_header_cards_container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .pts_header_card {
-        height: 41rem;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .pts_header {
+.pts_header {
         padding: 3rem 1rem;
     }
 
@@ -3115,5 +3189,63 @@ body {
 
     .pts_header_card {
         height: 42rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+.hero_text_container h1 {
+        font-size: 3rem;
+    }
+
+    .hero_text_container p {
+        font-size: 1.3rem;
+    }
+
+    .info_cards {
+        padding: 3rem 1rem;
+    }
+
+    .title_text {
+        font-size: 2.2rem;
+    }
+
+    .description_text {
+        font-size: 1rem;
+    }
+
+
+
+        .sports_header {
+        padding: 3rem 1rem;
+    }
+
+    .sports_header_text h1 {
+        font-size: 2.3rem;
+    }
+
+    .sports_header_cards_container {
+        grid-template-columns: 1fr;
+    }
+
+    .sports_header_card {
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ttd_subjects_card_container {
+        grid-template-columns: 1fr;
+    }
+
+        .travel {
+        padding: 4rem 1rem;
+    }
+
+    .travel_cards_container {
+        grid-template-columns: 1fr;
+    }
+
+    .travel_card {
+        text-align: center;
+        align-items: center;
     }
 }
